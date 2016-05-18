@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode     title="系统菜单"  description="系统菜单" >
+    <siteMapNode  url="index.aspx" title="流程申请管理"  description="流程申请管理">
+
+      <siteMapNode title="我的任务" description="我的任务" url="WorkSpace/MyWorklist.aspx">
+
+        <siteMapNode title="入职流程" description="入职流程">
+          <siteMapNode title="ES 资产确认" description="ES 资产确认" url="Process/OAF/ESConfirm.aspx"></siteMapNode>
+          <siteMapNode title="内部IT确认" description="内部IT确认" url="Process/OAF/ITConfirm.aspx"></siteMapNode>
+          <siteMapNode title="分配分机" description="分配分机" url="Process/OAF/ExtensionAssign.aspx"></siteMapNode>
+        </siteMapNode>
+
+        <siteMapNode title="离职流程" description="离职流程">
+          <siteMapNode title="部门助理确认" description="部门助理确认" url="Process/TAF/DeptConfirm.aspx"></siteMapNode>
+          <siteMapNode title="部门确认" description="部门确认" url="Process/TAF/DeptLeaderConfirm.aspx"></siteMapNode>
+          <siteMapNode title="ES资产确认" description="ES资产确认" url="Process/TAF/ESConfirm.aspx"></siteMapNode>
+          <siteMapNode title="法务确认" description="法务确认" url="Process/TAF/LegalConfirm.aspx"></siteMapNode>
+          <siteMapNode title="薪酬确认" description="薪酬确认" url="Process/TAF/SalaryConfirm.aspx"></siteMapNode>
+          <siteMapNode title="股票期权确认" description="股票期权确认" url="Process/TAF/StockOptionsConfirm.aspx"></siteMapNode>
+          <siteMapNode title="财务单据确认" description="财务单据确认" url="Process/TAF/FinanceConfirm.aspx"></siteMapNode>
+          <siteMapNode title="出纳确认" description="出纳确认" url="Process/TAF/CasherConfirm.aspx"></siteMapNode>
+          <siteMapNode title="分机确认" description="分机确认" url="Process/TAF/RelaseTelConfirm.aspx"></siteMapNode>
+          <siteMapNode title="内部IT确认" description="内部IT确认" url="Process/TAF/ITConfirm.aspx"></siteMapNode>
+          <siteMapNode title="HR BP离职审批" description="HR BP离职审批" url="Process/TAF/HRBPConfirm.aspx"></siteMapNode>
+          <siteMapNode title="HR CB确认" description="HR CB确认" url="Process/TAF/HRCB.aspx"></siteMapNode>
+        </siteMapNode>
+
+      </siteMapNode>
+
+      <siteMapNode title="采购申请" description="采购申请" url="Process/PMS/ListPMS.aspx">
+        <siteMapNode url="Process/PMS/StartProcess.aspx" title="添加采购申请" description="添加采购申请"/>
+      </siteMapNode>
+
+      <siteMapNode title="我的申请" description="我的申请" url="WorkSpace/MyStarted.aspx"></siteMapNode>
+      <siteMapNode title="已处理的任务" description="已处理的任务" url="WorkSpace/MyJoined.aspx"></siteMapNode>
+      <siteMapNode title="草稿箱" description="草稿箱" url="WorkSpace/MyDraft.aspx"></siteMapNode>
+      <siteMapNode title="我的代理" description="我的代理" url="WorkSpace/MyDelegation.aspx"></siteMapNode>
+
+      <siteMapNode url="Process/OAF/HRBP/OnBoardManage.aspx" title="待入职人员录入">
+        <siteMapNode url="Process/OAF/HRBPSubmit.aspx" title="添加新员工" description="添加新员工"/>
+        <siteMapNode  url="Process/OAF/EditProcess.aspx" title="修改员工信息" description="修改员工信息"/>
+      </siteMapNode>
+
+      <siteMapNode url="Process/OAF/HRPackage/BatchManage.aspx"  title="入职文件夹">
+        <siteMapNode url="Process/OAF/HRPackage/ViewBatch.aspx" title="入职文件夹查看"></siteMapNode>
+        <siteMapNode url="Process/OAF/HRPackage/JoinBatch.aspx" title="挑选员工加入入职文件夹"></siteMapNode>
+
+      </siteMapNode>
+
+      <siteMapNode  title="离职人员查看" url="Process/TAF/HRBP/LeftEmployeeMgr.aspx"></siteMapNode>
+
+      <siteMapNode  title="离职文件夹" url="Process/TAF/HRBP/ListLeftEmpolyee.aspx"></siteMapNode>
+      <siteMapNode  title="入职人员查看" url="Process/OAF/HRBP/BPBoardManage.aspx"></siteMapNode>
+
+      <siteMapNode  title="ES文件夹" url="Process/TAF/HRBP/EsPrintBatch.aspx">
+        <siteMapNode  title="ES管理批量打印" url="Process/TAF/HRBP/ESPrintMgr.aspx"></siteMapNode>
+      </siteMapNode>
+
+
+
+    </siteMapNode>
+
+    <siteMapNode url="" title="流程申请管理"  description="流程申请管理" >
+      <siteMapNode url="Process/CDF/StartProcess.aspx" title="自定义流程"></siteMapNode>
+      <siteMapNode url="Process/CDF/Approve.aspx" title="自定义流程"></siteMapNode>
+      <siteMapNode url="Process/CDF/Confirm.aspx" title="自定义流程"></siteMapNode>
+      <siteMapNode url="Process/CDF/ReSubmit.aspx" title="自定义流程"></siteMapNode>
+      <siteMapNode url="Process/CDF/View.aspx" title="自定义流程"></siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode  title="后台管理"  description="后台管理" >
+      <siteMapNode  title="分机管理"  description="分机管理" url="~/Manage/TelNOManage/TELNOManage.aspx" />
+      <siteMapNode  title="部门权限管理"  description="部门权限管理" url="~/Manage/HRDepManage/HRDepotCountView.aspx" />
+      <siteMapNode  title="员工编号管理"  description="员工编号管理" url="~/Manage/StaffNOManage/StaffNumManage.aspx" />
+      <siteMapNode url="~/Admin/RoleFormMgr.aspx"  title="表单权限管理"  description="角色管理"  />
+      <siteMapNode  title="文档管理"  description="文档管理" url="Template/TemplateMange.aspx" >
+        <siteMapNode title="创建文档" description="创建文档" url="Template/CreateTemplate.aspx" />
+        <siteMapNode title="编辑文档" description="编辑文档" url="Template/UpdateTemplate.aspx" />
+      </siteMapNode>
+      <siteMapNode  title="属性管理"  description="属性管理" url="Template/UpdateTemplateCategory.aspx" >
+        <siteMapNode  title="模版小类"  description="模版小类" url="Template/EditTemplateCategory.aspx" >
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode  title="人员管理"  description="人员管理" url="~/Manage/EmployManage.aspx" >
+        <siteMapNode title="信息修改" description="信息修改" url="/Manage/UpdateEmpSUPERISOR.aspx" />
+      </siteMapNode>
+      <siteMapNode  title="流程管理"  description="流程管理" url="~/Manage/FlowManage/FlowManage.aspx" >
+        <siteMapNode  title="节点管理"  description="节点管理" url="~/Manage/ActivityManage/ActivityManage.aspx">
+          <siteMapNode  title="节点规则管理"  description="节点规则管理" url="~/Manage/ActivityManage/ActivityAddRule/ActivityAndRule.aspx"/>
+        </siteMapNode>
+        <siteMapNode title="节点区域管理" description="节点区域管理" url="~/Manage/FlowManage/ActivityAreaManage.aspx"/>
+      </siteMapNode>
+      <siteMapNode  title="菜单管理"  description="菜单管理" url="~/manage/RoleManage/MenuManage.aspx" />
+      <siteMapNode  title="流程角色管理"  description="角色管理" url="~/Manage/RoleManage/RoleManage.aspx" >
+        <siteMapNode  title="角色人员管理"  description="角色人员管理" url="~/Manage/RoleManage/RoleUserManage.aspx" />
+      </siteMapNode>
+      <siteMapNode  title="系统角色管理"  description="系统角色管理" url="~/Manage/RoleManage/MenuRoleManage.aspx" >
+        <siteMapNode  title="角色菜单管理"  description="角色菜单管理" url="~/Manage/RoleManage/RoleMenuManage.aspx" />
+        <siteMapNode  title="角色人员管理"  description="角色人员管理" url="~/Manage/RoleManage/MenuRoleUserManage.aspx" />
+      </siteMapNode>
+      <siteMapNode  title="规则管理"  description="规则管理" url="~/Manage/RuleManage/RuleManage.aspx" >
+        <siteMapNode  title="编辑角色"  description="编辑角色" url="~/Manage/RuleManage/RuleRoleManage.aspx" />
+      </siteMapNode>
+
+      <siteMapNode  title="人员管理"  description="人员管理" url="~/Manage/UserManage/UserManage.aspx" >
+        <siteMapNode  title="添加角色"  description="添加角色" url="~/Manage/UserManage/UserRoleAdd.aspx" ></siteMapNode>
+      </siteMapNode>
+      <siteMapNode  title="分机区域管理"  description="分机区域管理" url="~/Manage/TelNOManage/TelAreaManage.aspx" ></siteMapNode>
+      <siteMapNode  title="添加分机区域"  description="添加分机区域" url="~/Manage/TelNOManage/TelAreaEdit.aspx" ></siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode title="流程管理" description="流程管理">
+      <siteMapNode url="Admin/OrganizationMNG.aspx" title="组织结构管理" description="组织结构管理"></siteMapNode>
+      <siteMapNode url="Admin/UserManage.aspx" title="人员管理" description="人员管理"></siteMapNode>
+      <siteMapNode url="Admin/JobsMNG.aspx" title="岗位管理" description="岗位管理"></siteMapNode>
+      <siteMapNode url="Admin/RolesMNG.aspx" title="角色管理" description="角色管理"></siteMapNode>
+      <siteMapNode url="Admin/RoleUserMNG.aspx" title="角色用户管理" description="角色用户管理"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="考勤管理" description="考勤管理">
+
+      <siteMapNode url="Process/ADF/HolidayManage/HolidayCategoryManage.aspx" title="假期类别管理" description="假期类别管理">
+        <siteMapNode url="Process/ADF/HolidayManage/EditHolidayCategory.aspx" title="编辑假期类别" description="编辑假期类别"></siteMapNode>
+        <siteMapNode url="Process/ADF/HolidayRuleManage/HolidayCategoryRuleList.aspx" title="生成规则" description="假期类别管理>生成规则"></siteMapNode>
+      </siteMapNode>
+       <siteMapNode url="Process/ADF/AI_Manage/AnomalyInterpretationEx.aspx" title="月底考勤解释" description="月底考勤解释"></siteMapNode>
+      <siteMapNode url="Process/ADF/ADFLeaveOvertime/ADFExceptionApprovalEx.aspx" title="月底考勤解释审批" description="月底考勤解释审批"></siteMapNode>
+      
+      <siteMapNode url="Process/ADF/HolidayManage/AttendanceCategoryManage.aspx" title="班次管理" description="班次管理">
+        <siteMapNode url="Process/ADF/HolidayManage/EditAttendanceCategory.aspx" title="编辑班次" description="编辑班次"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="Process/ADF/HolidayManage/OverWorkCategoryManage.aspx" title="加班类别管理" description="加班类别管理">
+        <siteMapNode url="Process/ADF/HolidayManage/EditOverWorkCategory.aspx" title="编辑加班类别" description="编辑加班类别"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="Process/ADF/HolidayManage/SystemSetCategoryManage.aspx" title="考勤范围管理" description="考勤范围管理"></siteMapNode>
+      <siteMapNode url="Process/ADF/HolidayManage/EditSystemSetCategory.aspx" title="编辑考勤范围" description="编辑考勤范围"></siteMapNode>
+      <siteMapNode url="Process/ADF/HolidayManage/SpecialDayManage.aspx" title="特殊日期管理" description="特殊日期管理"></siteMapNode>
+      <siteMapNode url="Process/ADF/HolidayManage/EditSpecialDay.aspx" title="编辑特殊日期" description="编辑特殊日期"></siteMapNode>
+      <siteMapNode url="Process/ADF/HolidayManage/ExcludeManage.aspx" title="排他表管理" description="排他表管理"></siteMapNode>
+      <siteMapNode url="Process/ADF/HolidayManage/EditExclude.aspx" title="编辑排他表" description="编辑排他表"></siteMapNode>
+      <siteMapNode url="Process/ADF/ADFLeaveOvertime/ADFLeaveOvertimeProxy.aspx" title="助理申请假期" description="助理申请假期"></siteMapNode>
+      <siteMapNode url="Process/ADF/AI_Manage/AttendanceInfo.aspx" title="考勤情况查看" description="考勤情况查看"></siteMapNode>
+      <siteMapNode url="Process/ADF/ApprovalManage/Approve.aspx" title="领导汇总审批" description="领导汇总审批"></siteMapNode>
+      <siteMapNode url="Process/ADF/ApprovalManage/LeaderApprove.aspx" title="领导汇总审批" description="领导汇总审批"></siteMapNode>
+     
+      
+      <siteMapNode url="Process/ADF/AI_Manage/AnomalyInterpretation.aspx" title="考勤说明" description="考勤说明"></siteMapNode>
+      <siteMapNode url="Process/ADF/ADFLeaveOvertime/ADFLeaveOvertimeManage.aspx" title="个人假期管理" description="个人假期管理"></siteMapNode>
+      <siteMapNode url="Process/ADF/PersonCollectionsManage/PersonCollectionsList.aspx" title="人员集管理" description="人员集管理"></siteMapNode>
+      <siteMapNode url="Process/ADF/PersonCollectionsManage/AddCollectionDetail.aspx" title="创建人员集" description="创建人员集"></siteMapNode>
+      <siteMapNode url="Process/ADF/PersonCollectionsManage/DelCollectionDetail.aspx" title="创建人员集" description="创建人员集"></siteMapNode>
+      <siteMapNode url="Process/ADF/ADFLeaveOvertime/ADFLeaveOvertimeExamine.aspx" title="领导审批" description="领导审批"></siteMapNode>
+      <siteMapNode url="Process/ADF/SystemImport/UpLoadFileList.aspx" title="系统导入" description="系统导入"></siteMapNode>
+      <siteMapNode url="Process/ADF/ADFLeaveOvertime/ADFLeaveOvertimeList.aspx" title="假期查看" description="假期查看"></siteMapNode>
+      <siteMapNode url="Process/ADF/HolidayRuleManage/HolidayRuleSetting.aspx" title="假期规则配置" description="假期规则配置"></siteMapNode>
+      <siteMapNode url="Process/ADF/HolidayRuleManage/HolidayRelevanceRule.aspx" title="假期规则关联" description="假期规则关联"></siteMapNode>
+      <siteMapNode url="Process/ADF/HolidayRuleManage/EditHolidayRelevanceRule.aspx" title="编辑假期规则关联" description="编辑假期规则关联"></siteMapNode>
+     
+
+      <siteMapNode url="Process/ADF/HolidayGenerate/BatchManage.aspx" title="假期生成>假期批次管理" description="假期生成>假期批次管理"></siteMapNode>
+      <siteMapNode url="Process/ADF/HolidayGenerate/GenerateCondition.aspx" title="假期生成" description="假期生成"></siteMapNode>
+      <siteMapNode url="Process/ADF/HolidayGenerate/GeneratePreview.aspx" title="假期生成>假期预览" description="假期生成>假期预览"></siteMapNode>
+      <siteMapNode url="Process/ADF/HolidayGenerate/PersonList.aspx" title="假期生成>人员列表" description="假期生成>人员列表"></siteMapNode>
+      <siteMapNode url="Process/ADF/HolidayGenerate/RuleParameter.aspx" title="假期生成>假期规则参数选择" description="假期生成>假期规则参数选择"></siteMapNode>
+      <siteMapNode url="Process/ADF/ApproverSetting/ApproverList.aspx" title="审批人列表" description="审批人列表"></siteMapNode>
+      
+      <siteMapNode url="Process/ADF/CompanyExplanationSetting/CompanyList.aspx" title="公司列表" description="公司列表"></siteMapNode>
+      <siteMapNode url="Process/ADF/CompanyExplanationSetting/SelectCompany.aspx" title="选择公司" description="选择公司"></siteMapNode>
+      <siteMapNode url="Process/ADF/CompanyExplanationSetting/ExplanationFirst.aspx" title="时间设置" description="时间设置"></siteMapNode>
+      <siteMapNode url="Process/ADF/CompanyExplanationSetting/ExplanationSecond.aspx" title="编辑公司考勤解释时间" description="编辑公司考勤解释时间"></siteMapNode>
+      
+      <siteMapNode url="Process/ADF/PermissionsSetting/JurisdictionManager.aspx" title="权限设置" description="权限设置">
+        <siteMapNode url="Process/ADF/PermissionsSetting/JurisdictionSetting.aspx" title="人员查看" description="人员查看"></siteMapNode>
+      </siteMapNode>
+    
+      <siteMapNode  title="考勤规则集管理" url="Process/ADF/ADFRuleMange/ADFRuleManage.aspx">
+        <siteMapNode  title="规则管理" url="Process/ADF/ADFRuleMange/ADFRuleDetailMange.aspx">
+          <!--/Process/ADF/ADFRuleMange/AddRuleExpression.aspx-->
+          <siteMapNode  title="条件设置" url="Process/ADF/ADFRuleMange/AddRuleExpression.aspx">
+
+          </siteMapNode>
+
+          <siteMapNode  title="返回值设置" url="Process/ADF/ADFRuleMange/AFDReturnValue.aspx"/>
+
+        </siteMapNode>
+
+        <siteMapNode  title="规则参数管理" url="Process/ADF/ADFRuleMange/RuleParameters/RuleParametersManage.aspx"/>
+      </siteMapNode>
+      <siteMapNode url="Process/ADF/ADFPackAgeManage/ADFPackageManage.aspx" title="考勤文件夹管理" description="考勤文件夹管理">
+
+        <siteMapNode url="Process/ADF/ADFPackAgeManage/ADFPackageSubmit.aspx" title="查看考勤文件夹" description="考勤文件夹管理">
+        </siteMapNode>
+        <siteMapNode url="Process/ADF/ApprovalManage/AssistantEx.aspx" title="助理查看" description="助理查看"></siteMapNode>
+        
+      </siteMapNode>
+
+      <siteMapNode url="Process/ADF/ADFPackAgeManage/ADFPackageManageForHR.aspx" title="已完成考勤文件夹查看" description="已完成考勤文件夹查看">
+        <siteMapNode url="Process/ADF/ADFPackAgeManage/HRExportPackage.aspx" title="导出考勤文件夹" description="导出考勤文件夹"/>
+        </siteMapNode>
+        <siteMapNode url="Process/ADF/SystemImport/QueryImportState/ImportExcelList.aspx" title="导入状态查询" description="导入状态查询"></siteMapNode>
+
+      </siteMapNode>
+
+    <siteMapNode title="采购管理" description="采购管理">
+      <siteMapNode url="Manage/PMSManage/ContractManage/ContractManage.aspx" title="合同主体管理" description="合同主体管理"></siteMapNode>
+      <siteMapNode url="Manage/PMSManage/PRMachineManage/PRMachineManage.aspx" title="推荐整机管理" description="PR整机管理"></siteMapNode>
+      <siteMapNode url="Manage/PMSManage/ContractTemplateManage/ContractTemplateManage.aspx" title="合同模板管理" description="合同模板管理">
+        <siteMapNode url="Manage/PMSManage/ContractTemplateManage/ContractTemplateView.aspx" title="合同模板版本管理" description="合同模板版本管理"></siteMapNode>
+      </siteMapNode>
+      
+      <siteMapNode url="Manage/PMSManage/SignSNManage/SignSNManage.aspx" title="标签管理" description="标签管理"></siteMapNode>
+      <siteMapNode url="Manage/PMSManage/RClocationManage/RClocationManage.aspx" title="收货地址管理" description="收货地址管理"></siteMapNode>
+
+      <siteMapNode url="Manage/PMSManage/FittingManage/FittingManage.aspx" title="配件管理" description="配件管理"></siteMapNode>
+      <siteMapNode url="Manage/PMSManage/FittingTypeManage/FittingTypeManage.aspx" title="配件类型管理" description="配件类型管理"></siteMapNode>
+      <siteMapNode url="Manage/PMSManage/OtherSettingsManage/OtherSettingsManage.aspx" title="其它设置" description="其它设置"></siteMapNode>
+      <siteMapNode url="Manage/PMSManage/POFittingManage/POFittingManage.aspx" title="PO配件管理" description="PO配件管理">
+        <siteMapNode url="Manage/PMSManage/POFittingManage/POFittingHistory.aspx" title="PO配件价格历史" description="PO配件价格历史"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="Manage/PMSManage/PRPriceManage/PRPriceManage.aspx" title="价格系数管理" description="价格系数管理"></siteMapNode>
+      <siteMapNode url="Manage/PMSManage/SupplierManage/SupplierManage.aspx" title="供应商管理" description="供应商管理"></siteMapNode>
+      <siteMapNode url="Manage/PMSManage/BusinessLineManage/BusinessLineManage.aspx" title="业务线管理" description="业务线管理"></siteMapNode>
+      <siteMapNode url="Manage/PMSManage/POMachineManage/POMachineManage.aspx" title="" description=""></siteMapNode>
+      <siteMapNode url="Process/PMS/Contract/ContractForm.aspx" title="合同管理" description="合同管理"></siteMapNode>
+      <siteMapNode url="Process/PMS/Contract/ContractManage.aspx" title="创建合同" description="创建合同"></siteMapNode>
+      <siteMapNode url="Process/PMS/Contract/COForm.aspx" title="创建合同" description="创建合同"></siteMapNode>
+
+
+      <siteMapNode url="Manage/PMSManage/BrandManage/BrandManage.aspx" title="厂商管理" description="厂商管理"></siteMapNode>
+
+
+      <siteMapNode url="Process/PMS/PO/POFormList.aspx" title="PO单管理" description="PO单管理">
+        <siteMapNode url="Process/PMS/PO/CreatePOForm.aspx" title="创建PO单" description="创建PO单"></siteMapNode>
+        <siteMapNode url="Process/PMS/PO/POFormEdit.aspx" title="PO单修改" description="PO单修改"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="Process/PMS/ReceiveGoods/ListAssetsReceived.aspx" title="收货管理" description="收货管理">
+        <siteMapNode url="Process/PMS/ReceiveGoods/DownLoadPODetial.aspx" title="下载收货单" description="下载收货单"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="Process/PMS/ESConfirm/ListESStorage.aspx" title="ES入库" description="ES入库">
+        <siteMapNode url="Process/PMS/ESConfirm/GoodsConfirm.aspx" title="创建ES入库单" description="创建ES入库单"></siteMapNode>
+        <siteMapNode url="Process/PMS/ESConfirm/ESStorageShow.aspx" title="ES入库单详情" description="ES入库单详情"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="Process/PMS/ESConfirm/ImportList.aspx" title="ES记账管理" description="ES记账管理">
+        <siteMapNode url="Process/PMS/ESConfirm/ImportRFID.aspx" title="ES记账" description="ES记账"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="Process/PMS/PayMent/PayManage.aspx" title="付款管理" description="付款管理">
+        <siteMapNode url="Process/PMS/PayMent/PayCOList.aspx" title="创建付款" description="创建付款"/>
+        <siteMapNode url="Process/PMS/PayMent/PayForm.aspx" title="创建付款" description="创建付款"/>
+        <siteMapNode url="Process/PMS/PayMent/PayMentEdit.aspx" title="付款编辑" description="付款编辑"/>
+      </siteMapNode>
+
+      <siteMapNode url="Manage/PMSManage/PRServiceLog/PRServiceLogMange.aspx" title="同步PR系统日志" description="同步PR系统日志"></siteMapNode>
+    </siteMapNode>
+
+
+    <siteMapNode  url="login.aspx" title="登录"></siteMapNode>
+    <siteMapNode  url="~/main.aspx" title="主页"></siteMapNode>
+  </siteMapNode>
+
+</siteMap>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:db="http://xmlns.oracle.com/apps/cux/soaprovider/plsql/cux_pay_applment_appr_util_pkg/cux_appr_attach/" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/apps/cux/soaprovider/plsql/cux_pay_applment_appr_util_pkg/cux_appr_attach/" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="InputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="1" db:type="VARCHAR2" minOccurs="0" name="P_APPLYMENT_NUM" nillable="true" type="string" />
+        <element db:index="2" db:type="VARCHAR2" minOccurs="0" name="P_FILE_NAME" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+</schema>

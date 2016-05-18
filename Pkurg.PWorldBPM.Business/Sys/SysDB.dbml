@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BPM" Class="SysDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=172.25.20.47;Initial Catalog=BPM;Persist Security Info=True;User ID=sa" SettingsObjectName="Pkurg.PWorldBPM.Business.Properties.Settings" SettingsPropertyName="BPMConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.WF_AppDict" Member="WF_AppDict">
+    <Type Name="WF_AppDict">
+      <Column Name="AppId" Type="System.String" DbType="VarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AppName" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="AppType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="WorkFlowName" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="FormName" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="IsOpen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WF_Approval_Record" Member="WF_Approval_Record">
+    <Type Name="WF_Approval_Record">
+      <Column Name="ApprovalID" Type="System.String" DbType="NVarChar(200) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="WFTaskID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FormID" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="InstanceID" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Opinion" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OrderNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsDel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreateByUserCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CreateByUserName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CreateAtTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdateByUserCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UpdateByUserName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UpdateAtTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ApproveByUserCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApproveByUserName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApproveResult" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApproveAtTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OpinionType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CurrentActiveName" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="ISSign" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="ReceiveTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FinishedTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Remark" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CurrentActiveID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApproveStatus" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="DelegateUserName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DelegateUserCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ReadTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WR_Attachment" Member="WR_Attachment">
+    <Type Name="WR_Attachment">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Attachment_GUID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="Rule_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FileName" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="FileSize" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FilePath" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="Created_By" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Created_By_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Created_On" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Record_Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WR_Setting" Member="WR_Setting">
+    <Type Name="WR_Setting">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Category" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="Record_Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WF_GetRelatedLinks" Member="WF_GetRelatedLinks">
+    <Type Name="WF_GetRelatedLinks">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AppCode" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AddressToLink" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="CreateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ClassName" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WF_CountersignDepartment" Member="WF_CountersignDepartment">
+    <Type Name="WF_CountersignDepartment">
+      <Column Name="CountersignID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="InstanceID" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CountersignDeptCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="OrderNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsDel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreateByUserCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CreateByUserName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CreateAtTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdateByUserCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="UpdateByUserName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="UpdateAtTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CountersignDeptName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="seCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WF_CallbackNotify" Member="WF_CallbackNotify">
+    <Type Name="WF_CallbackNotify">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="WfId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FinishTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NotfiyContent" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="OpType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TryTimes" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Describe" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Log_Operation" Member="Log_Operation">
+    <Type Name="Log_Operation">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="OpDes" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="OpTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OpType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BPM_Attachment" Member="BPM_Attachment">
+    <Type Name="BPM_Attachment">
+      <Column Name="AttachmentID" Type="System.String" DbType="NVarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FormID" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="AttachmentName" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="OrderNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsDel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreateByUserCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CreateByUserName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CreateAtTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdateByUserCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="UpdateByUserName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="UpdateAtTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="URL" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="AttachmentSize" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WF_Custom_Instance" Member="WF_Custom_Instance">
+    <Type Name="WF_Custom_Instance">
+      <Column Name="ID" Type="System.String" DbType="VarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FormId" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ContentTxt" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="FormData" Type="System.Xml.Linq.XElement" DbType="Xml" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="CurrentStepId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WF_Custom_Templation" Member="WF_Custom_Templation">
+    <Type Name="WF_Custom_Templation">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Des" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CreateUserID" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreateUserName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CreateUserDeptCode" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LastUpdateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsOpen" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RelationDeptCode" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Association Name="WF_Custom_Templation_WF_Custom_TemplationItems" Member="WF_Custom_TemplationItems" ThisKey="Id" OtherKey="TemplD" Type="WF_Custom_TemplationItems" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WF_Custom_TemplationItems" Member="WF_Custom_TemplationItems">
+    <Type Name="WF_Custom_TemplationItems">
+      <Column Name="StepID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="StepName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="OrderId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PartUsers" Type="System.String" DbType="Xml" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="CreateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TemplD" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Condition" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="WF_Custom_Templation_WF_Custom_TemplationItems" Member="WF_Custom_Templation" ThisKey="TemplD" OtherKey="Id" Type="WF_Custom_Templation" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WF_Custom_InstanceItems" Member="WF_Custom_InstanceItems">
+    <Type Name="WF_Custom_InstanceItems">
+      <Column Name="StepID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StepName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="OrderId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PartUsers" Type="System.String" DbType="Xml" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="CreateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LastUpdateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="InstancelD" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Condition" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SYS_MappingUser" Member="SYS_MappingUser">
+    <Type Name="SYS_MappingUser">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FormUserCode" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="ToUserCode" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="State" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_Pworld_UserInfo" Member="V_Pworld_UserInfo">
+    <Type Name="V_Pworld_UserInfo">
+      <Column Name="EmployeeCode" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LoginName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CompanyCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="DepartCode" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="DepartName" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsDel" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FullPY" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+      <Column Name="OrderNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_Pworld_Department" Member="V_Pworld_Department">
+    <Type Name="V_Pworld_Department">
+      <Column Name="CompanyCode" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="DepartCode" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="DepartName" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Remark" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="DeptType" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="IsDel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OrderNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WF_WorkFlowInstance" Member="WF_WorkFlowInstance">
+    <Type Name="WF_WorkFlowInstance">
+      <Column Name="InstanceID" Type="System.String" DbType="NVarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AppID" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="FormID" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="WFInstanceId" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="OrderNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsDel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreateByUserCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CreateByUserName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CreateAtTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdateByUserCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UpdateByUserName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UpdateAtTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreateDeptCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CreateDeptName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="WorkItemCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="WorkItemName" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="WFTaskID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FinishedTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Remark" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="FormTitle" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="WFStatus" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="SumitTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FormData" Type="System.Xml.Linq.XElement" DbType="Xml" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ProcessName" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="IsPass" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_ToDoList_OA" Member="V_ToDoList_OA">
+    <Type Name="V_ToDoList_OA">
+      <Column Name="ProcID" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="ReceTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Alias" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ProcName" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="AppName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="VirtualPath" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="LoginID" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="TaskID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_ArchiveProc_OA_BPM" Member="V_ArchiveProc_OA_BPM">
+    <Type Name="V_ArchiveProc_OA_BPM">
+      <Column Name="VirtualPath" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Source" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="userCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="procId" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="ProcName" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="TaskID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StartTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatorName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CreatorDeptName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="bpmid" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="IsPass" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.wf_usp_custom_GetWfDeptsByUserCode" Method="Custom_GetWfDeptsByUserCode">
+    <Parameter Name="EmployeeCode" Parameter="employeeCode" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="wf_usp_custom_GetWfDeptsByUserCodeResult">
+      <Column Name="DepartCode" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="DepartName" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Remark" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.wf_app_GetToDoList" Method="wf_app_GetToDoList" IsComposable="true">
+    <Parameter Name="loginid" Type="System.String" DbType="VarChar(100)" />
+    <Return Type="object" />
+  </Function>
+  <Function Name="dbo.wf_app_GetDoneList" Method="wf_app_GetDoneList" IsComposable="true">
+    <Parameter Name="loginId" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="object" />
+  </Function>
+</Database>

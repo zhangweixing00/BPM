@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.commonHeader2{ background:#57607c; position:relative;}
+.commonHeader2 h1{color:#FFF; font-weight:normal; text-align:center;}
+.commonHeader2 a.return_btn{ height:100%; position:absolute; left:0px; top:0px; background:url(images/commonHeader_returnBtn.png) no-repeat; z-index:10;}
+
+
+.commonHeader2 a.index_btn{ height:100%; position:absolute; right:0px; top:0px; z-index:10; background:url(images/commonHeader_index.png) no-repeat 10px center;}
+
+
+
+.commonHeader2{height:40px;}
+.commonHeader2 h1{ line-height:40px; font-size:20px;}
+.commonHeader2 a.return_btn{ width:22px; background-size:22px; padding-left:20px; padding-right:10px; background-position:20px center;}
+
+
+.commonHeader2 a.index_btn{width:22px; background-size:22px; padding-left:10px; padding-right:20px;}

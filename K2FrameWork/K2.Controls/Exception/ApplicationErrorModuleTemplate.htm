@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>错误提示</title>
+    <style type="text/css">
+			BODY { FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: SimSun }
+			P { FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: SimSun }
+			.linkSwitch { FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: SimSun }
+			INPUT { BORDER-RIGHT: #c4c4c4 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #c4c4c4 1px solid; FONT-FAMILY: SimSun }
+			BUTTON { BORDER-RIGHT: #c4c4c4 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #c4c4c4 1px solid; FONT-FAMILY: SimSun }
+			TEXTAREA { BORDER-RIGHT: #c4c4c4 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #c4c4c4 1px solid; FONT-FAMILY: SimSun }
+			SELECT { FONT-SIZE: 9pt; COLOR: #000000; BACKGROUND-COLOR: #ffffff }
+	</style>
+</head>
+<body onload="onDocumentLoad()">
+    <form id="ErrorPageForm" method="post" runat="server">
+        <table align="center" style="width: 100%; height: 100%" id="Table1">
+            <tr>
+                <td align="center" valign="top">
+                    <input type="hidden" id="closePrompt" value="$closePromptValue$"><br>
+                    <img src="$imageUrl$"><br>
+                    <p style="font-size: 12pt; font-family: 宋体; font_weight: bold;">
+                        $errorMessage$
+                    </p>
+                    <p>
+                        <input type="button" style="width: 64px; display:$goBackBtnDisplay$" value="返回" id="goBackBtn" name="goBackBtn"
+                            runat="server" onclick="onBackClick();">
+                        <input type="button" style="display: none; width: 64px" value="关闭" runat="server"
+                            id="closeBtn" name="closeBtn" onclick="onCloseClick();">
+                    </p>
+                    <a id="linkTag" href="#" class="linkSwitch" onclick="onExpandStackTraceClick();"
+                        style="display: none">点击此处展开详细错误信息......</a>
+                    <div id="stackTracePanel" style="display: none">
+                            <div id="stackTraceParagraph" style="width:100%; text-align:left">$errorStackTrace$</div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script language="javascript">
+        var C_LINK_OPEN_TITLE = "点击此处展开详细错误信息......";
+        var C_LINK_CLOSE_TITLE = "点击此处关闭详细错误信息......";
+
+        function onDocumentLoad() {
+            if (stackTraceParagraph.innerText.length > 0)
+                linkTag.style.display = "inline";
+
+            if (window.opener || window.dialogArguments)
+                ErrorPageForm.closeBtn.style.display = "inline";
+        }
+
+        function onCloseClick() {
+            if (ErrorPageForm.closePrompt.value.toLowerCase() == "true") {
+                if (window.confirm("您确认要关闭窗口吗？"))
+                    window.close();
+            }
+            else
+                window.close();
+        }
+
+        function onBackClick() {
+            window.history.go(-1);
+        }
+
+        function onExpandStackTraceClick() {
+            var a = event.srcElement;
+
+            try {
+                var bOpend = stackTracePanel.style.display == "inline";
+
+                if (bOpend) {
+                    stackTracePanel.style.display = "none";
+                    a.innerText = C_LINK_OPEN_TITLE;
+                }
+                else {
+                    stackTracePanel.style.display = "inline";
+                    a.innerText = C_LINK_CLOSE_TITLE;
+                }
+            }
+            finally {
+                event.returnValue = false;
+            }
+        }
+    </script>
+
+</body>
+</html>

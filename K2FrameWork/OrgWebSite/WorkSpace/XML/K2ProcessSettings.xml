@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+  <Process>
+    <Name>CDF</Name>
+    <ProcessName>CustomWF</ProcessName>
+    <Folder>Sohu.OA.Workflow</Folder>
+    <ProcessFullName>Sohu.OA.Workflow\CustomWF</ProcessFullName>
+    <StartPage>Process/CDF/Draft.aspx?FormID=</StartPage>
+    <ViewPage>Process/CDF/View.aspx?FormID=</ViewPage>
+    <ViewPageMyApplication>Process/CDF/View.aspx?FormID=</ViewPageMyApplication>
+    <EditPage>../index.aspx?FormID=</EditPage>
+    <Description>自定义流程</Description>
+  </Process>
+</Root>

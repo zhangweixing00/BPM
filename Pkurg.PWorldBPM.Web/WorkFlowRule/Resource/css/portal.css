@@ -1,0 +1,526 @@
+﻿
+/*workflow.aspx*/
+.txt
+{
+    border-right: #999999 1px solid;
+    padding-right: 0px;
+    border-top: #999999 1px solid;
+    padding-left: 6px;
+    padding-bottom: 2px;
+    vertical-align: middle;
+    border-left: #999999 1px solid;
+    width: 250px;
+    padding-top: 4px;
+    border-bottom: #999999 1px solid;
+    font-family: Verdana, "Courier New" , "宋体";
+    height: 16px;
+}
+.wf_form
+{
+    margin-top: 5px; /*border: 1px solid #c0c0c0;*/
+}
+.wf_form_title
+{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+}
+
+.wf_table
+{
+    width: 100%;
+    margin: 10px 0px;
+    background-color: #ccc;
+}
+
+.wf_table th
+{
+    padding-left: 0px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    color: #000;
+    background: #e6e6e8;
+    padding-top: 2px;
+    height: 30px;
+    text-align: right;
+    border: 1px solid #eaeaea;
+    width: 140px;
+}
+
+.wf_table td
+{
+    color: #000;
+    background: #f1f4f9;
+    height: 30px;
+    line-height: 27px;
+    border: 1px solid #eaeaeb;
+    padding: 1px 5px;
+}
+.wf_fieldset
+{
+    margin: 10px 0px;
+    border: 1px solid #d5dfe5;
+    padding: 5px;
+}
+.wf_legend
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/*show.aspx*/
+.detail_box
+{
+    background-color: white;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.detail_title
+{
+    border-bottom: 1px dashed #e6e6e6;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+}
+.detail_content
+{
+    font-size: 14px;
+    line-height: 1.8;
+    overflow: hidden;
+    padding:10px;
+   /* width: 680px;*/
+}
+/*search.aspx*/
+.search_box
+{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+}
+
+.search_box_ul
+{
+   /* width: 655px;*/
+}
+.search_box_ul > li
+{
+    margin-bottom: 15px;
+}
+
+
+.search_box_ul > li a
+{
+    color: #1686c3;
+    font-size: 15px;
+    /*font-weight:bold;
+    text-decoration: underline;*/
+}
+
+/*全局*/
+html
+{
+    color: #4D4D4D;
+}
+html, body, p, ul, li, h1, input, form, h1, h2, h3, h4
+{
+    margin: 0;
+    padding: 0;
+}
+body, input
+{
+    font: 12px/1.5 "微软雅黑" ,tahoma,arial, "宋体" ,宋体;
+}
+body
+{
+    background-color: #EDEDEF;
+}
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+}
+ul, li
+{
+    list-style: none outside none;
+}
+img
+{
+    border: medium none;
+}
+a
+{
+    color: #03309D;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+address, caption, cite, code, dfn, em, th, var
+{
+    font-style: normal;
+    font-weight: 500;
+}
+.clear
+{
+    clear: both;
+}
+
+/*全局end*/
+
+/* top and header*/
+.top
+{
+    height: 27px;
+    background: none repeat scroll 0% 0% #3D474A;
+    color: #FFF;
+}
+.top_content
+{
+    width: 990px;
+    margin: auto;
+}
+.top_ul
+{
+    float: right;
+}
+.top_li
+{
+    float: left;
+    padding: 0px 7px;
+    height: 27px;
+    line-height: 26px;
+}
+.top_li a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+.top_content span
+{
+    height: 27px;
+    line-height: 26px;
+}
+.header
+{
+    padding: 10px 0px 10px;
+    background: none repeat scroll 0% 0% #F6F6F6;
+    height: 63px;
+    margin-bottom: 20px;
+}
+.header_content
+{
+    width: 990px;
+    margin: auto;
+}
+.header_ul
+{
+    float: right;
+    margin-top: 35px;
+}
+.header_li
+{
+    float: left;
+    padding: 0px 7px;
+    height: 27px;
+    line-height: 26px;
+    margin-left: 32px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.header_li a
+{
+    text-decoration: none;
+    color: #4D4D4D;
+}
+.header_li a:hover
+{
+    text-decoration: none;
+    color: #E66E1E;
+}
+.header_li_current a
+{
+    color: #E66E1E;
+}
+
+/*center*/
+.center
+{
+    width: 990px;
+    margin: 0px auto;
+}
+/*center*/
+
+/*search*/
+.h-title
+{
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px;
+}
+.search
+{
+    background-color: #FFF;
+    padding: 20px;
+    border: 1px solid #DBDBDB;
+}
+.search_bar
+{
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    background: none repeat scroll 0% 0% transparent;
+    border: 0px none;
+    z-index: 10;
+}
+.inputSearch_cnt
+{
+    height: 36px;
+    border: 2px solid #B2B2B2;
+    display: inline-block;
+    width: 500px;
+    position: relative;
+}
+.inputSearch
+{
+    border: 0px none;
+    width: 475px;
+    height: 25px;
+    font-size: 16px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    padding: 0px 5px 0px 0px;
+}
+.buttonSearch
+{
+    padding: 0px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "微软雅黑";
+}
+.buttonSearch_cnt
+{
+    vertical-align: top;
+    padding: 0px 36px;
+    line-height: 38px;
+    height: 38px;
+    color: #5E5E5E;
+    border: 1px solid #B2B2B2;
+    background: none repeat scroll 0% 0% #F4F4F4;
+}
+
+/*common table*/
+.helper-table
+{
+    width: 100%;
+    background-color: #F9F9F9;
+    border: 1px solid #dbdbdb;
+}
+.helper-table td
+{
+    vertical-align: top;
+    padding: 15px 0;
+}
+.helper-table tr
+{
+    border-top: 1px solid #ddd;
+}
+.helper-table li
+{
+    list-style: none;
+}
+.helper-table
+{
+    border-bottom: 1px solid #ddd;
+}
+.helper-table h4, .helper-table h4 a
+{
+    font-size: 13px;
+    color: black;
+}
+.helper-table td.helper-table-first
+{
+    text-align: center;
+    vertical-align: middle;
+    width: 220px;
+}
+.helper-table a
+{
+    color: #1686C3;
+    line-height: 22px;
+}
+.helper-table-limit
+{
+    width: 240px;
+    display: block;
+     float: left;	
+}
+.helper-table-first > i
+{
+    background: url("../images/helper.png") no-repeat;
+    display: inline-block;
+    width: 36px;
+    height: 40px;
+}
+.helper-table-first > i.item
+{
+    background-position: -12px -60px;
+}
+.helper-table-first > em
+{
+    color: #E2711E;
+    font-size: 14px;
+}
+.helper-table td.helper-table-second
+{
+    padding-left: 40px;
+    position: relative;
+}
+.helper-table-second:before
+{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -50px;
+    width: 1px;
+    height: 100px;
+    background-color: #e5e5e5;
+}
+/*quicks*/
+.quicks > li:first-child
+{
+    margin-left: 0px;
+}
+.quicks > li
+{
+    float: left;
+    width: 154px;
+    height: 130px;
+    background-color: #F9F9F9;
+    border: 1px solid #DBDBDB;
+    margin-left: 10px;
+}
+.quicks > li > a
+{
+    display: block;
+    position: relative;
+    color: #3B4E5E;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 178px;
+}
+.quicks > li > a > .icon
+{ 
+    background-position: -5px -5px;    
+}
+
+.quicks > li > a > .icon1
+{
+    background-position: -215px -5px;
+}
+
+.quicks > li > a > i
+{
+    background: url("../images/quick.png") no-repeat scroll 0% 0% transparent;
+    display: inline-block;
+    width: 51px;
+    height: 55px;
+    position: absolute;
+    left: 51px;
+    top: 20px;
+}
+
+/*footer*/
+.footer
+{
+    margin-top: 15px;
+    border-top: 1px solid #cccccc;
+    height: 20px;
+    color: #808080;
+}
+.footer .separator
+{
+    font-weight: normal;
+}
+.footer
+{
+    border-top: 1px solid #ffffff;
+    padding-top: 5px;
+    text-align: center;
+}
+.footer-link a
+{
+    padding: 0 3px 0 2px;
+}
+.footer-copyright, .footer-phone
+{
+    padding-top: 0px;
+}
+.footer-copyright a, .footer-copyright a:hover
+{
+    color: #808080;
+}
+
+.copyright, .copyright a, .copyright a:hover
+{
+    color: #808080;
+}
+/*footer*/
+
+/*AspNetPager*/
+
+.anpager
+{
+    margin: 8px;
+    text-align: center;
+}
+.anpager .cpb
+{
+    background: #1F3A87 none repeat scroll 0 0;
+    border: 1px solid #CCCCCC;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 5px 4px 0 0;
+    padding: 4px 5px 0;
+}
+.anpager a
+{
+    background: #FFFFFF none repeat scroll 0 0;
+    border: 1px solid #CCCCCC;
+    color: #1F3A87;
+    margin: 5px 4px 0 0;
+    padding: 4px 5px 0;
+    text-decoration: none;
+}
+.anpager a:hover
+{
+    background: #1F3A87 none repeat scroll 0 0;
+    border: 1px solid #1F3A87;
+    color: #FFFFFF;
+}
+.anpager span
+{
+    background: #1F3A87 none repeat scroll 0 0;
+    border: 1px solid #CCCCCC;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 5px 4px 0 0;
+    padding: 4px 5px 0;
+}
+.anpager  td
+{
+        text-align:center;
+}
+.anpager table td
+{
+    border:0px;
+}

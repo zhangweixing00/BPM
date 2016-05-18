@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cux="http://xmlns.oracle.com/apps/cux/soaprovider/plsql/cux_pay_applment_appr_util_pkg/" xmlns:cux1="http://xmlns.oracle.com/apps/cux/soaprovider/plsql/cux_pay_applment_appr_util_pkg/cux_appr_result/">
+  <soapenv:Header>
+    <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:UsernameToken wsu:Id="UsernameToken-2" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <wsse:Username>用户名</wsse:Username>
+        <wsse:Password  Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">111111</wsse:Password>
+        <wsse:Nonce  EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">qTW5ajMAEp4o9BiSvcczNA==</wsse:Nonce>
+        <wsu:Created>2010-05-24T07:02:10.531Z</wsu:Created>
+      </wsse:UsernameToken>
+    </wsse:Security>
+    <cux:SOAHeader>
+      <!--Optional:-->
+      <cux:Responsibility>?</cux:Responsibility>
+      <!--Optional:-->
+      <cux:RespApplication>?</cux:RespApplication>
+      <!--Optional:-->
+      <cux:SecurityGroup>?</cux:SecurityGroup>
+      <!--Optional:-->
+      <cux:NLSLanguage>?</cux:NLSLanguage>
+      <!--Optional:-->
+      <cux:Org_Id>?</cux:Org_Id>
+    </cux:SOAHeader>
+  </soapenv:Header>
+  <soapenv:Body>
+    <cux1:InputParameters>
+      <!--Optional:-->
+      <cux1:P_APPLYMENT_NUM>?</cux1:P_APPLYMENT_NUM>
+      <!--Optional:-->
+      <cux1:P_APPR_RESULT>?</cux1:P_APPR_RESULT>
+    </cux1:InputParameters>
+  </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ApproveRule>
+  <ApproveNodes>
+    <Node ID="f6775a91-e2cd-4271-9119-a5de2d52ac2b" RequestNodeID="30e321b8-9c9a-4e1c-98b5-8665fdaf2892" ApproveNodeID="efbd8de3-9169-45eb-a4a9-7e99c27dc1d6" IsApprove="false" RuleTableName="" CreatedBy="CONTOSO\administrator"></Node>
+    <Node ID="3999ff7c-15ad-430f-9e2b-7a9994650b40" RequestNodeID="30e321b8-9c9a-4e1c-98b5-8665fdaf2892" ApproveNodeID="04a3596e-9588-4756-a916-d15d47005756" IsApprove="false" RuleTableName="" CreatedBy="CONTOSO\administrator"></Node>
+    <Node ID="2ecb5dc0-950c-46f9-b3c2-c649e9c9f469" RequestNodeID="30e321b8-9c9a-4e1c-98b5-8665fdaf2892" ApproveNodeID="2b66b6f9-c8bc-4d14-8893-f08982c0c69b" IsApprove="false" RuleTableName="" CreatedBy="CONTOSO\administrator"></Node>
+    <Node ID="c9a5e2c6-be3c-49c8-91c9-30f9ed73cb10" RequestNodeID="30e321b8-9c9a-4e1c-98b5-8665fdaf2892" ApproveNodeID="7ff34257-9f54-43ba-8823-4bff8cb04b69" IsApprove="false" RuleTableName="" CreatedBy="CONTOSO\administrator"></Node>
+    <Node ID="2f909ef4-fdbe-4303-bca3-8c6d48b1453e" RequestNodeID="30e321b8-9c9a-4e1c-98b5-8665fdaf2892" ApproveNodeID="76da275d-7c47-40fe-8d26-5fc4f7573a2b" IsApprove="true" RuleTableName="" CreatedBy="CONTOSO\administrator"></Node>
+  </ApproveNodes>
+</ApproveRule>

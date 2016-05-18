@@ -1,0 +1,130 @@
+﻿
+/*布局*/
+#page
+{
+   width: 1190px;
+    margin: 5px auto;
+}
+
+
+#header
+{
+    vertical-align: top;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#menusDiv
+{
+    background-color: #d80c17;
+    height: 35px;
+    margin-bottom: 5px;
+}
+#menus
+{
+    margin-left: 225px;
+}
+
+#menus li
+{
+    float: left;
+    color: White;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    height: 15px;
+    list-style: outside none none;
+}
+
+#menus a
+{
+    color: White;
+    font-size: 14px;
+    text-decoration: none;
+}
+#menus a:hover
+{
+    text-decoration: none;
+}
+
+#nav
+{
+    height: 40px;
+    text-align: right;
+}
+
+#userInfo
+{
+    padding-top: 5px;
+    text-align: right;
+    float: right;
+    padding-right: 10px;
+    padding-top: 43px;
+    font-size: 13px;
+}
+
+#loading
+{
+    float: right;
+    padding-top: 20px;
+    margin-right: 20px;
+    color: Green;
+}
+
+
+#container
+{
+    clear: both;
+    margin-top: 5px;
+    height: 100%;
+}
+#left
+{
+    float: left;
+   width: 200px;
+}
+#right
+{
+    float: right;
+    width: 980px;
+}
+
+#footer
+{
+    clear: both;
+    height: 30px;
+    font-family: Verdana;
+    padding-top: 15px;
+}
+
+#footer A:link
+{
+    height: 19px;
+    text-decoration: none;
+    color: #4B4B4B;
+}
+#footer A:visited
+{
+    height: 19px;
+    text-decoration: none;
+    color: #4B4B4B;
+}
+#footer A:hover
+{
+    height: 19px;
+    text-decoration: none;
+    color: #4B4B4B;
+}
+#footer A:active
+{
+    height: 19px;
+    text-decoration: none;
+    color: #4B4B4B;
+}
+.Foot_bg
+{
+    background-image: url(../images/Foot_bg.gif);
+    background-repeat: repeat-x;
+    height: 21px;
+}

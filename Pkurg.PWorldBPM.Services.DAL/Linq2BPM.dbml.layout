@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 13.625" name="Linq2BPM">
+  <DataContextMoniker Name="/Linq2BPMDataContext" />
+  <nestedChildShapes>
+    <classShape Id="745e058d-139a-4d52-affd-d071aa81e7cf" absoluteBounds="1.5, 0.875, 2, 2.1446048990885416">
+      <DataClassMoniker Name="/Linq2BPMDataContext/WF_AppDict" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1e47465c-3dca-41d3-aac7-4e193e9c6b9a" absoluteBounds="1.5150000000000001, 1.335, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5eda3684-93c4-4a06-88ac-ef5c05f999c9" absoluteBounds="4.875, 3.5, 2, 5.3919396972656246">
+      <DataClassMoniker Name="/Linq2BPMDataContext/WF_WorkFlowInstance" />
+      <nestedChildShapes>
+        <elementListCompartment Id="df9b2420-1e1c-40de-9d86-b0eb1f48e552" absoluteBounds="4.89, 3.96, 1.9700000000000002, 4.831939697265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="56c7f46e-9755-47fc-9367-d51964ab7bc2" absoluteBounds="1.5, 3.375, 2, 3.2907230631510416">
+      <DataClassMoniker Name="/Linq2BPMDataContext/BPM_Attachment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e1c687bf-66c3-4178-8e16-6f64262a635e" absoluteBounds="1.5150000000000001, 3.835, 1.9700000000000002, 2.7307230631510415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eae7acd5-cf20-4a5c-ac21-0570e1c68ecf" absoluteBounds="1.375, 7.75, 2, 5.5829593912760407">
+      <DataClassMoniker Name="/Linq2BPMDataContext/V_BPM_Archive" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4c786128-5443-4dd5-9630-04baae20e3d8" absoluteBounds="1.3900000000000001, 8.21, 1.9700000000000002, 5.0229593912760411" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6f5b86f8-ebcb-4816-bbff-0301b0806b2c" absoluteBounds="5.25, 0.75, 2, 1.9535852050781251">
+      <DataClassMoniker Name="/Linq2BPMDataContext/Archive_Log" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f40eb070-9d4a-4cef-9b72-f6e2ea5d61d1" absoluteBounds="5.265, 1.21, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8da76e44-edca-42a8-95c1-9dec46a90e09" absoluteBounds="4.875, 9.875, 2, 3.0997033691406251">
+      <DataClassMoniker Name="/Linq2BPMDataContext/V_Pworld_UserInfo_All" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3490263f-c7ce-4a90-97fd-390c5a24b938" absoluteBounds="4.89, 10.335, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

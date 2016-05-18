@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UrlDatas>
+  <UrlData type="CONTRACT" rParmam="PaymentNumber">http://f63dev.founder.com:8030/OA_HTML/cux/CUXPOPAYMENTBPM.jsp</UrlData>
+  <UrlData type="COSTRPT" rParmam="PaymentNumber">http://f63dev.founder.com:8030/OA_HTML/cux/CUXCOSTRPTPAYMENTBPM.jsp</UrlData>
+  <UrlData type="ENSURE" rParmam="PaymentNumber">http://f63dev.founder.com:8030/OA_HTML/cux/CUXENSUREAMTPAYBPM.jsp</UrlData>
+  <UrlData type="NORMAL" rParmam="PaymentNumber">http://f63dev.founder.com:8030/OA_HTML/cux/CUXNORMALPAYBPM.jsp</UrlData>
+  <UrlData type="INSTRUCTION" rParmam="CostReportId">http://f63dev.founder.com:8030/OA_HTML/cux/CUXAPPLYREPORTBPM.jsp</UrlData>
+  <UrlData type="PO" rParmam="PoHeaderId">http://f63dev.founder.com:8030/OA_HTML/cux/CUXPOAPPROVEBPM.jsp</UrlData>
+  <UrlData type="SUPPLMENT" rParmam="supplyAgreeID">http://f63dev.founder.com:8030/OA_HTML/cux/CUXSUPPLAGREEBPM.jsp</UrlData>
+  <UrlData type="POJS" rParmam="PoHeaderId">http://f63dev.founder.com:8030/OA_HTML/cux/CUXPOJSAPPROVEBPM.jsp</UrlData>
+  <UrlData type="C2CPBAL" rParmam="BHeaderId">http://f63sit.founder.com:8020/OA_HTML/cux/CUXCPC2APPROVEBPM.jsp</UrlData>
+  
+</UrlDatas>

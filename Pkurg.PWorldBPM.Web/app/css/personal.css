@@ -1,0 +1,65 @@
+.wrap01 .wrap01_nav{}
+.wrap01 .wrap01_nav ul{ background:#464e65;}
+.wrap01 .wrap01_nav ul li{width:25%; float:left;}
+.wrap01 .wrap01_nav ul li a{ display:block; color:#dbe3f0; text-align:center;}
+.wrap01 .wrap01_nav ul li.active{ background:#dbe3f0; }
+.wrap01 .wrap01_nav ul li.active a{color:#464e65;}
+
+
+.wrap01 .daiBan{}
+.wrap01 .daiBan li{ background:#FFF;border-bottom:1px solid #d9e5fb;}
+.wrap01 .daiBan li a{ display:block;}
+.wrap01 .daiBan li p.p1{ width:100%; color:#151515;overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+.wrap01 .daiBan li p.p1 span.num{ display:inline-block; vertical-align:top; text-align:center; background: #57607c;color:#FFF; -webkit-border-radius:50%;}
+.wrap01 .daiBan li p.p2 ,.wrap01 .daiBan li p.p3{color:#8895b4;}
+.wrap01 .daiBan li p.p2{ background:url(images/daiBanShiXiang_icon1.png) no-repeat 0px center;}
+.wrap01 .daiBan li p.p3{ background:url(images/daiBanShiXiang_icon3.png) no-repeat 0px 0px;}
+
+
+.wrap01 .personal_top{ background:#FFF; -webkit-border-radius:5px; overflow:hidden;
+-webkit-box-shadow:0px 0px 5px #e0e7f4;
+}
+.wrap01 .personal_top1{ background:#b4e6fa; color:#464e65; -webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px; }
+.wrap01 .personal_top ul{color:#8895b4;}
+.wrap01 span.daiBanShiXiang_icon1{ vertical-align:top; display:inline-block; background:url(images/daiBanShiXiang_icon1.png) no-repeat 0px center;}
+
+.wrap01 a.ExitSign{ display:block; background:#43c0dd; color:#FFF; text-align:center; -webkit-border-radius:5px;
+-webkit-box-shadow:0px 2px #39a3bc;}
+
+.wrap01 a.loadMore{ display:block;color:#8895b4;}
+.wrap01 a.loadMore span{ display:block; text-align:center;border-top:1px solid #dbe3f0;}
+.wrap01 a.loadMore b{ background:#f0f4fb; vertical-align:top; display:inline-block; font-weight:normal;}
+.wrap01 a.loadMore b i{ display:inline-block; vertical-align:top; background:url(images/loading_bg.gif) no-repeat;}
+
+
+
+
+.wrap01 .wrap01_nav{ background:#57607c;}
+.wrap01 .wrap01_nav ul li{}
+.wrap01 .wrap01_nav ul li a{ line-height:40px; font-size:16px;}
+
+
+.wrap01 .daiBan{}
+.wrap01 .daiBan ul{border-left:5px solid #dbe3f0;padding-top:10px;}
+.wrap01 .daiBan li{ margin-left:-5px; margin-bottom:10px;}
+.wrap01 .daiBan li a{border-left:5px solid #fb6362; padding:10px 20px 10px 10px;}
+.wrap01 .daiBan1 li a{border-color:#3bcbcb;}
+.wrap01 .daiBan2 li a{border-color:#43c0dd;}
+.wrap01 .daiBan li p.p1{ font-size:14px; padding-bottom:10px;}
+.wrap01 .daiBan li p.p1 span.num{ min-width:19px; margin-right:10px; padding:1px;}
+.wrap01 .daiBan li p.p2{padding-top:5px;padding-bottom:5px;}
+.wrap01 .daiBan li p.p2 ,.wrap01 .daiBan li p.p3{ line-height:21px; padding-left:25px; background-size:20px;}
+
+
+.wrap01 .personal{ padding:10px 20px;}
+.wrap01 .personal_top{ padding:2px;}
+.wrap01 .personal_top1{ padding:10px; line-height:30px; font-size:14px;}
+.wrap01 .personal_top ul{ padding:10px;}
+.wrap01 .personal_top ul li{ line-height:21px;}
+.wrap01 span.daiBanShiXiang_icon1{ width:20px; height:30px; margin-right:5px; background-size:20px;}
+.wrap01 .ExitSign_wrap{ padding-top:20px; padding-bottom:10px;}
+.wrap01 a.ExitSign{ line-height:35px;}
+
+.wrap01 a.loadMore{ padding:20px 20px 10px;}
+.wrap01 a.loadMore b{ margin-top:-11px; padding-left:5px; padding-right:5px; font-size:16px;}
+.wrap01 a.loadMore b i{ width:21px; height:21px; background-position:5px center;}

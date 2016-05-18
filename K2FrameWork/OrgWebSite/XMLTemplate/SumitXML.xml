@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Request>
+  <Requestor>用户ID</Requestor>
+  <RequestorAD>用户AD</RequestorAD>
+  <Department>088A9F6E-7AE7-4EFF-9046-2444A5D95C28</Department>
+  <DepartmentName>xxx</DepartmentName>
+  <WorkSpace>BJ</WorkSpace>
+  <RequestorEmail>xx@xx.xxx</RequestorEmail>
+  <RequestorTel>xxxxxxxxxxxxxxx</RequestorTel>
+  <Operator>用户ID</Operator>
+  <OperatorAD>用户AD</OperatorAD>
+  <OperatorEmail>xx@xx.xxx</OperatorEmail>
+  <OperatorTel>xxxxxxxxxxxxxxxxxx</OperatorTel>
+  <Data>
+    <Field Code="MealFee" Value="100" OrderNo="1" />
+  </Data>
+</Request>

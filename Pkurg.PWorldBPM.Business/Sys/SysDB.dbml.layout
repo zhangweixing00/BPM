@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SysDB">
+  <DataContextMoniker Name="/SysDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="bdf09403-fcad-40bf-b61e-42e972f27506" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/WF_AppDict" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7194f7ac-2b92-44dd-b380-10f1046e83f4" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e3b18482-7fb3-41b8-a945-715729f9d034" isExpanded="false" absoluteBounds="3, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/WF_Approval_Record" />
+      <nestedChildShapes>
+        <elementListCompartment Id="350cd50c-e137-4f21-a31d-0b3e3d7a766d" isExpanded="false" absoluteBounds="3.015, 0.96, 1.9700000000000002, 0.247467041015625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="96bbb39e-3363-407a-8404-a2faa5a54792" isExpanded="false" absoluteBounds="3, 1.25, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/WR_Attachment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9216f133-aa67-4325-acd9-9e9124ac6197" absoluteBounds="3.015, 1.71, 1.9700000000000002, 2.1576639811197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b9100194-f445-4005-928e-3406a7cc57fc" isExpanded="false" absoluteBounds="0.5, 2, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/WR_Setting" />
+      <nestedChildShapes>
+        <elementListCompartment Id="44c7b760-b37f-4a4f-8fa2-383dd2822042" absoluteBounds="0.51500000000000012, 2.4600000000000009, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0957f0bc-40d2-45f5-a260-67abb4b5d115" isExpanded="false" absoluteBounds="3, 4.125, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/WF_GetRelatedLinks" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d6261978-b938-4bee-843c-1969be61dd45" absoluteBounds="3.015, 4.5850000000000009, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1128885e-cad1-4f64-9dcc-48f2473e1bb9" absoluteBounds="3, 2, 2, 0.80746704101562461">
+      <DataClassMoniker Name="/SysDBDataContext/WF_CountersignDepartment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1def49f3-87f1-4420-9be0-55778cd73535" isExpanded="false" absoluteBounds="3.015, 2.46, 1.9700000000000002, 0.247467041015625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8b77b594-97fc-4023-8d75-a796101a0240" absoluteBounds="3, 3, 2, 0.80746704101562461">
+      <DataClassMoniker Name="/SysDBDataContext/WF_CallbackNotify" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ab1e6d10-b08f-4995-8ba2-2edd2b490243" isExpanded="false" absoluteBounds="3.015, 3.46, 1.9700000000000002, 0.247467041015625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="aa0ffe11-70cb-4b1b-8bdc-dbfef7e61d0f" isExpanded="false" absoluteBounds="0.5, 2.875, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/Log_Operation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="16e979d3-74c0-4e1a-849f-5ccb4d92ac26" absoluteBounds="0.51500000000000012, 3.3350000000000009, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b4e2c3cb-aa9b-4b4b-9f13-efce216967a3" isExpanded="false" absoluteBounds="3, 4.875, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/BPM_Attachment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="555f69b0-2d9a-42ab-b72e-3fa21a416f09" absoluteBounds="3.015, 5.3350000000000009, 1.9700000000000002, 2.7307230631510415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="83f332c2-bdc7-463c-8f1b-643277e8cbe7" isExpanded="false" absoluteBounds="0.5, 4.75, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/WF_Custom_Instance" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7cc45286-6cf9-4281-816c-2e4b26518a9d" absoluteBounds="0.51499999999999968, 5.21, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b726c594-669d-4e21-b514-a28e99d6735a" isExpanded="false" absoluteBounds="5.875, 1.25, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/WF_Custom_Templation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d213d0ab-c19f-44dc-a0e7-4e898e0756eb" absoluteBounds="5.89, 1.71, 1.9700000000000002, 2.1576639811197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dba9117d-4f4c-4367-a7c5-e0857845a0e2" isExpanded="false" absoluteBounds="5.875, 2.5, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/WF_Custom_TemplationItems" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f240b337-cac2-43b7-b388-171675569a82" absoluteBounds="5.8900000000000006, 2.9600000000000009, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.875 : 1.7); (6.875 : 2.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SysDBDataContext/WF_Custom_Templation/WF_Custom_Templation_WF_Custom_TemplationItems" />
+      <nodes>
+        <classShapeMoniker Id="b726c594-669d-4e21-b514-a28e99d6735a" />
+        <classShapeMoniker Id="dba9117d-4f4c-4367-a7c5-e0857845a0e2" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7c9e94c5-93d5-4940-9276-11a80053d832" isExpanded="false" absoluteBounds="0.5, 4.25, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/WF_Custom_InstanceItems" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b6774aa7-e6cd-4998-bf9b-331e94ca13b2" absoluteBounds="0.51500000000000012, 4.7100000000000009, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="af832841-1ed7-4357-909e-6bd36814f6b2" isExpanded="false" absoluteBounds="5.875, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/SYS_MappingUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e5c1e4d1-93de-4df0-96a8-97a046400afd" absoluteBounds="5.89, 0.96, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4f5d24b3-bd9a-42c1-9f22-a83c6fbbefc2" isExpanded="false" absoluteBounds="0.5, 3.625, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/V_Pworld_UserInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f8c2b962-d02b-4fbb-80cf-b6d255c403b9" absoluteBounds="0.515, 4.0850000000000009, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="71091806-182f-4524-a149-6373e685dddb" isExpanded="false" absoluteBounds="0.5, 5.5, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/V_Pworld_Department" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0cc48e9f-1abe-4e83-aeb7-3730ad63af2f" absoluteBounds="0.515, 5.96, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9c2fd74d-5ca5-4d06-9882-d9974f815949" isExpanded="false" absoluteBounds="0.5, 1.25, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/WF_WorkFlowInstance" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bd5d9696-98f7-4754-8790-23d12d96aecf" absoluteBounds="0.51500000000000012, 1.71, 1.9700000000000002, 5.0229593912760411" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="03d19503-30f5-4375-9741-f786ca50675f" isExpanded="false" absoluteBounds="3.125, 5.875, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/V_ToDoList_OA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e6eabbfd-b3a6-4a4a-8635-66fdf9adc24d" absoluteBounds="3.14, 6.335, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3a67d83f-3d39-49a0-825e-807980593e7f" isExpanded="false" absoluteBounds="0.5, 6.875, 2, 0.45">
+      <DataClassMoniker Name="/SysDBDataContext/V_ArchiveProc_OA_BPM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2c379bc1-a2fd-476b-83ad-674b73dd2a25" absoluteBounds="0.515, 7.335, 1.9700000000000002, 2.7307230631510415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

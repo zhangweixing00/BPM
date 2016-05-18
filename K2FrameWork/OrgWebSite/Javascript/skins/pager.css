@@ -1,0 +1,14 @@
+.ke-pager {
+	width:100%; line-height:16px; height:16px; //padding-top:4px;
+	background:url(ke.pager_bg.png) repeat-x;
+}
+
+.ke-pager ul {
+	height:16px; line-height:1px;
+    background:url(ke.pager_bg.png) repeat-x;
+}
+.ke-pager li {
+	width:3px; height:16px; line-height:6px;
+}
+.ke-pager li.ke-pager-left { float:left; background:url(ke.pager_left.png) no-repeat; }
+.ke-pager li.ke-pager-right { float:right; background:url(ke.pager_right.png) no-repeat; }

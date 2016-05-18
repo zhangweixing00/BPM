@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <!--合同审批单中，ERP上线的公司-->
+	<Company key="S374-S919" value="重庆悦丰地产有限公司"></Company>
+	<Company key="S374-S814" value="重庆盈普投资有限公司"></Company>
+	<Company key="S374-S1138" value="重庆盈丰地产有限公司"></Company>
+	<Company key="S374-S920" value="重庆盈睿置业有限公司"></Company>
+	<Company key="S377-S809" value="新津北创房地产开发有限公司"></Company>
+	<Company key="S377-S863" value="成都立辉地产有限公司"></Company>
+	<Company key="S377-S917" value="成都航美房地产开发有限公司"></Company>
+	<Company key="S383-S922" value="浙江蓝德置业发展有限公司"></Company>
+	<Company key="S379-S810" value="贵阳恒隆置业有限公司"></Company>
+	<Company key="S379-S852" value="贵阳能立洋房地产开发有限公司"></Company>
+	<Company key="S380-S811" value="长沙隆鑫房地产开发有限公司"></Company>
+	<Company key="S380-S812" value="长沙恒隆房地产开发有限公司"></Company>
+	<Company key="S381-S813" value="青岛博雅华府置业有限公司"></Company>
+	<Company key="S381-S827" value="青岛博莱置业有限公司"></Company>
+	<Company key="S382-S997" value="佛山北大资源地产有限公司"></Company>
+	<Company key="S382-S1117" value="广州广珠置业有限公司"></Company>
+	<Company key="S385-S1080" value="武汉天合锦程房地产发展有限公司"></Company>
+	<Company key="S382-S1115" value="江西北大科技园建设有限公司"></Company>
+	<Company key="D300-S824" value="包头北大科技园有限公司"></Company>
+	<Company key="S375-S990" value="天津市北大资源置业有限公司"></Company>
+	<Company key="S375-S901" value="天津博雅置业有限公司"></Company>
+
+</Root>

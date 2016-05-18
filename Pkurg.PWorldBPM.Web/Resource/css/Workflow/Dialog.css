@@ -1,0 +1,169 @@
+﻿#dialog
+{
+    margin: 0px;
+    padding: 0px;
+}
+#dcontainer
+{
+    margin: 0px;
+    padding: 0px;
+}
+#dcontainer #dheader
+{
+    background:#d6d9e0 url(itemdetail_dheader.jpg) left top no-repeat;
+    height: 58px;
+    margin: 0px;
+    padding: 0px;
+}
+#dcontainer #dheader1
+{
+    background:#d6d9e0 url(itemdetail_dheader.jpg) left top no-repeat;
+    height: 58px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#dcontainer #dheader1 h1
+{
+    font-size: 14px;
+    font-family: ����;
+    color: #fff;
+    line-height: 58px;
+    padding-left: 200px;
+}
+
+#dcontainer #dheader h1
+{
+    font-size: 14px;
+    font-family: ����;
+    color: #333;
+    line-height: 58px;
+    padding-left: 200px;
+}
+#dcontainer #dcontent
+{
+    padding: 10px;
+    border: 0px;
+    margin: 0px;
+}
+#dcontainer #dcontent h2
+{
+    background: url(h2_icon.gif) no-repeat 0px 7px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 10px;
+    font-size: 9pt;
+    line-height: 30px;
+    height: 30px;
+    padding-left: 25px;
+}
+#dcontainer #dcontent .toolbar
+{
+}
+#dcontainer #dheader.toolbar
+{
+    text-align: right;
+    padding: 2px 5px 0px;
+    height: 22px;
+    line-height: 22px;
+}
+#dcontainer #dheader.toolbar li
+{
+    display: inline;
+    margin: 0px;
+    margin-right: 5px;
+}
+#dcontainer #dheader.toolbar a
+{
+    height: 22px;
+    line-height: 22px;
+    padding: 0px 0px 0px 3px;
+    text-decoration: none;
+    display: inline-block;
+}
+#dcontainer #dheader.toolbar a span
+{
+    cursor: pointer;
+    height: 19px;
+    line-height: 22px;
+    display: inline-block;
+    color: #fff;
+    padding: 3px 5px 0px 2px;
+    text-align: center;
+    cursor: hand;
+    white-space: nowrap;
+    word-break: keep-all;
+}
+#dcontainer #dheader.toolbar a span img
+{
+    border: 0px;
+    margin-bottom: -4px;
+    margin-right: 5px;
+}
+#dcontainer#dheader .toolbar a:hover
+{
+    text-decoration: none;
+    background-position: 0% -22px;
+}
+#dcontainer #dheader.toolbar a:hover span
+{
+    background-position: 100% -22px;
+    color: #333;
+}
+#dcontainer #dheader.toolbar ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#dcontainer .formitem
+{
+    width: 100%;
+}
+#dcontainer .formitem th
+{
+    border-bottom: 1px solid #ccc;
+    text-align: right;
+    font-weight: bold;
+}
+#dcontainer .formitem td
+{
+    border-bottom: 1px solid #ccc;
+    padding: 3px;
+    padding-left: 15px;
+}
+#dcontainer #footer
+{
+    background: url(dialog_footer.gif) repeat-x left top;
+    height: 55px;
+    padding-top: 10px;
+    text-align: right;
+    padding-right: 15px;
+}
+#dcontainer #dfooter
+{
+    background: url(dialog_footer.gif) repeat-x left top;
+    height: 55px;
+    padding-top: 10px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#dcontainer #dheader2
+{
+    background:#fff url(itemdetail_Resource_dheader-.jpg) left top no-repeat;
+    height: 58px;
+    margin: 0px;
+    padding: 0px;
+
+    border-left:solid 5px #D80C18;
+    border-bottom:solid 2px #D80C18;
+}
+
+#dcontainer #dheader2 h1
+{
+    font-size: 14px;
+    font-family: ����;
+    color: #000;
+    line-height: 58px;
+    padding-left: 300px;
+}

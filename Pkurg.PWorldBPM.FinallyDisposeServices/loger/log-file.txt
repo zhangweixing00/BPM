@@ -1,0 +1,18 @@
+
+----------------------header--------------------------
+2016-05-04 10:41:15,230 [5] DEBUG logger [(null)]  - 更新实例结果：通过
+2016-05-04 10:41:15,251 [5] DEBUG logger [(null)]  - Params:392,1
+2016-05-04 10:41:15,254 [5] DEBUG logger [(null)]  - df:IsPass-1
+2016-05-04 10:41:15,297 [5] DEBUG logger [(null)]  - Proc:NjkzMjJIVDAwMDA0,已批准
+2016-05-04 10:41:26,257 [5] DEBUG logger [(null)]  - BackXml:<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Header/><env:Body><OutputParameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.oracle.com/apps/cux/soaprovider/plsql/cux_bpm_apr_utl/cux_common_interface/"><P_ERROR_MESSAGE xsi:nil="true" xmlns="http://xmlns.oracle.com/apps/cux/soaprovider/plsql/cux_bpm_apr_utl/cux_common_interface/"/></OutputParameters></env:Body></env:Envelope>
+2016-05-04 10:41:26,261 [5] DEBUG logger [(null)]  - Result:True
+2016-05-04 10:41:26,262 [5] DEBUG logger [(null)]  - Result-e:
+2016-05-04 10:41:46,728 [6] DEBUG logger [(null)]  - 更新实例结果：拒绝
+2016-05-04 10:41:46,729 [6] DEBUG logger [(null)]  - Params:392,1
+2016-05-04 10:41:46,730 [6] DEBUG logger [(null)]  - df:IsPass-0
+2016-05-04 10:41:46,732 [6] DEBUG logger [(null)]  - Proc:NjkzMjJIVDAwMDA0,已拒绝
+2016-05-04 10:41:47,409 [6] DEBUG logger [(null)]  - BackXml:<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"><env:Header/><env:Body><OutputParameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.oracle.com/apps/cux/soaprovider/plsql/cux_bpm_apr_utl/cux_common_interface/"><P_ERROR_MESSAGE xsi:nil="true" xmlns="http://xmlns.oracle.com/apps/cux/soaprovider/plsql/cux_bpm_apr_utl/cux_common_interface/"/></OutputParameters></env:Body></env:Envelope>
+2016-05-04 10:41:47,410 [6] DEBUG logger [(null)]  - Result:True
+2016-05-04 10:41:47,411 [6] DEBUG logger [(null)]  - Result-e:
+
+----------------------footer--------------------------

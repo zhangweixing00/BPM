@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Default.aspx" title="首页"  description="首页" roles="*">
+    <siteMapNode url="" title="流程中心"  description="流程中心" roles="*">
+      <!--<siteMapNode url="~/Sys/List.aspx" title="示范列表"  description="示范列表" roles="*"  />
+            <siteMapNode url="~/Sys/ItemDetail.aspx" title="发起流程"  description="发起流程" roles="*"  />-->
+      <!--<siteMapNode url="~/WFPortal/Index.aspx" title="流程门户"  description="流程门户" roles="*"  />-->
+      <siteMapNode url="~/WorkFlowRule/Index.aspx" title="流程制度门户" description="流程制度门户" roles="*" />
+      <!--<siteMapNode url="http://oa.founder.com/OAWeb/FounderOAResourceGroup/Modules/Workflow/ToDoList.aspx" title ="访问旧版流程门户" description="访问旧版流程门户" roles="*"/>-->
+            <siteMapNode url="~/WFPortal/Default.aspx" title="发起流程"  description="发起流程" roles="*"  />
+      <siteMapNode url="~/Workflow/ToDoList.aspx" title="待办事项"  description="待办事项" roles="*"  />
+      <siteMapNode url="~/Workflow/DoneList.aspx" title="已办事项"  description="已办事项" roles="*"  />
+      <siteMapNode url="~/Workflow/ArchiveListV2.aspx" title="归档流程" description="归档流程" roles="*"/>
+      <siteMapNode url="~/Workflow/AuthorizationList.aspx" title="授权流程" description="授权流程" roles="*"/>
+      <siteMapNode url="~/Workflow/EditPage/E_FrameWork_Instruction.aspx" title="发起无代码流程" description="发起无代码流程" roles="*"/>
+    </siteMapNode>
+    <siteMapNode url="" title="个人工作区"  description="个人工作区" roles="*">
+      <siteMapNode url="~/Portal/AddressBook.aspx" title="通讯录" description="通讯录" roles="*" />
+    </siteMapNode>
+    <siteMapNode url="" title="系统管理"  description="系统管理" roles="*">
+      <!--<siteMapNode url="~/Workflow/EditPage/InstructionList.aspx" title="草稿箱"  description="草稿箱" roles="*"  />
+            <siteMapNode url="~/Workflow/ViewPage/V_InstructionOfPKURG.aspx" title="审批页面"  description="系统设置" roles="*"  />
+            <siteMapNode url="~/Workflow/UserSelect.aspx" title="加签"  description="系统设置" roles="*"  />-->
+      <siteMapNode url="http://172.25.20.47:89/" title="PWorld"  description="系统设置" roles="*"  />
+      <siteMapNode url="~/Sys/AppManage_List.aspx" title="应用管理" description="用于应用管理" roles="*" />
+      <siteMapNode url="~/Sys/ProcessEndManage.aspx" title="流程结束管理" description="流程结束管理" roles="*" />
+      <siteMapNode url="~/Workflow/K2FrameWork/ApproveOpinionConfigureList.aspx" title="审批意见配置管理" description="审批意见配置管理" roles="*" />
+      <siteMapNode url="~/Workflow/K2FrameWork/FormConfigureList.aspx" title="表单配置管理" description="表单配置管理" roles="*" />
+      <siteMapNode url="~/Workflow/K2FrameWork/FormTypeConfigureList.aspx" title="表单类型配置" description="表单类型配置" roles="*" />
+    </siteMapNode>
+    <siteMapNode url="" title="工作流管理"  description="工作流管理" roles="*">
+      <siteMapNode url="~/Sys/ProcessesManage_List.aspx" title="实例管理" description="用于实例管理" roles="*" />
+    </siteMapNode>
+    <siteMapNode url="" title="流程制度"  description="流程制度门户" roles="*">
+      <siteMapNode url="~/WorkFlowRule/Rule/RuleList.aspx" title="制度管理" description="制度管理" roles="*" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

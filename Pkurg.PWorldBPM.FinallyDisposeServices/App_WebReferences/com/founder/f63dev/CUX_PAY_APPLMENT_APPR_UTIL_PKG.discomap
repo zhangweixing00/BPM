@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://f63dev.founder.com:8030/webservices/SOAProvider/plsql/cux_pay_applment_appr_util_pkg/?wsdl" filename="CUX_PAY_APPLMENT_APPR_UTIL_PKG.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://f63dev.founder.com:8030/webservices/SOAProvider/plsql/cux_pay_applment_appr_util_pkg/APPS_CUX_PAY_APPLMENT_APPR_UTIL_PKG_CUX_APPR_RESULT.xsd" filename="APPS_CUX_PAY_APPLMENT_APPR_UTIL_PKG_CUX_APPR_RESULT.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://f63dev.founder.com:8030/webservices/SOAProvider/plsql/cux_pay_applment_appr_util_pkg/APPS_CUX_PAY_APPLMENT_APPR_UTIL_PKG_CUX_APPR_ATTACH.xsd" filename="APPS_CUX_PAY_APPLMENT_APPR_UTIL_PKG_CUX_APPR_ATTACH.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

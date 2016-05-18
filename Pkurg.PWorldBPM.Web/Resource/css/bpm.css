@@ -1,0 +1,49 @@
+﻿/* 自定义的样式放在这里 */
+.td_l
+{
+    background:#e6e6e8;padding-right:5px;
+    text-align:right;
+    height:34px;line-height:34px;
+    width:120px;
+    font-weight:bold;
+}
+.td_lcust
+{
+    background:#e6e6e8;padding-right:5px;
+    text-align:right;
+    height:34px;line-height:34px;
+    font-weight:bold;
+}
+.td_r
+{
+    background:#f1f4f9;padding-left:5px;
+    text-align:left;
+    height:34px;line-height:34px;
+}
+.th_th
+{
+    background:#e6e6e8;padding-right:5px;
+    text-align:center;
+    height:34px;line-height:34px;
+    font-weight:bold;
+}
+.th_td
+{
+    background:#f1f4f9;padding-left:5px;
+    text-align:left;
+    height:34px;line-height:34px;
+}
+.com_fieldset
+{
+    border:1px solid #a8a8a8;
+    margin:0px 0px;
+    padding:10px;
+}
+.com_legend
+{
+    font-family:宋体;
+    font-size:14px;
+    font-weight:bold;
+    color:#000;
+    margin:5px;
+}

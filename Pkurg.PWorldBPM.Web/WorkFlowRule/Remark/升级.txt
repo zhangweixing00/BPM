@@ -1,0 +1,11 @@
+﻿1-增加项目 Pkurg.PWorldBPM.WorkFlowRule
+2-在Web增加文件夹WorkFlowRule
+3-数据库：WR_Category,WR_Rule,视图
+4-web.sitemap
+5-Left.ascx if (subNode.Title == "流程制度" && !IsLoginUser)
+6-Resource下的WorkFlowRule
+7-WFPortal下的WorkFlowRule.js
+
+逻辑的关系：
+删除流程，制度，需要删除关注表。
+关注只放在一个表WR_Focus，通过不同的字段区别：Rule_ID,WorkFlow_ID 为NULL

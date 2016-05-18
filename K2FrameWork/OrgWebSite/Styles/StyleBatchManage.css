@@ -1,0 +1,709 @@
+﻿*
+{
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+body
+{
+	font-size: 12px;
+	color: #000;
+	background: #FFF;
+	font-family: Hei, san-serif;
+}
+.bodyDIV
+{
+	width: 600px;
+}
+/*a
+{
+	color: #000;
+	text-decoration: none;
+}*/
+img
+{
+	border: 0;
+	margin: 0px;
+	padding: 0px;
+}
+.input
+{
+	border: 1px solid #9a9a9a;
+	background: #fafafa;
+}
+
+/*-------------我的工作台页-----------*/
+
+#container
+{
+	height: auto;
+	width: 1000px;
+	margin: 0 auto;
+}
+.con_main
+{
+	width: 1020px;
+	height: 100%;
+	margin: 0 auto;
+}
+.top
+{
+	width: 1020px;
+	float: left;
+	height: 98px;
+	background-image: url(../pic/top_bg.jpg);
+}
+.top
+{
+	background: url(../pic/top.jpg) no-repeat;
+	height: 81px;
+	position: relative;
+	border-bottom: 1px solid #cbaf40;
+}
+
+.top_1
+{
+	margin-top: 5px;
+	right: 12px;
+	position: absolute;
+}
+.main
+{
+	width: 1000px;
+	height: 399px;
+	overflow: hidden;
+}
+/*------.left样式-----*/
+.left
+{
+	background: url(../pic/left.jpg) no-repeat bottom;
+	width: 150px;
+	height: auto;
+	float: left;
+	min-height: 600px;
+}
+/*------.right样式-----*/
+.right
+{
+	width: 850px;
+	height: auto;
+	float: left;
+	padding: 0;
+}
+.nav
+{
+	height: 25px;
+	width: 760px;
+	top: 6px;
+	left: 18px;
+	position: relative;
+	color: #8b8b8b;
+	line-height: 25px;
+}
+
+.nav a
+{
+	text-decoration: none;
+	}
+/* 李建杰 begin nav_1 left 35改为20 */
+.nav_1
+{
+	top: 16px;
+	left: 20px;
+	width: 771px;
+	height: 26px;
+	position: relative;
+	background: url(../pic/right_list_title_bg2.png) no-repeat;
+}
+/* 李建杰 end nav_1 left 35改为20 */
+.nav_1 p
+{
+	color: #76650b;
+	top: 8px;
+	left: 18px;
+	position: absolute;
+	font-weight: bold;
+}
+.nav_1 img
+{
+	float: right;
+}
+ul#menu, ul#menu ul
+{
+	margin: 0;
+	padding: 0;
+	width: 150px;
+}
+
+ul#menu a
+{
+	display: block;
+	text-decoration: none;
+}
+
+ul#menu li
+{
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+ul#menu li a
+{
+	font-size: 14px;
+	color: #000;
+	padding: 0.5em;
+}
+
+
+ul#menu li a:hover
+{
+	background: #ffe873;
+}
+
+ul#menu li ul li
+{
+	max-height: 30px;
+}
+ul#menu li ul li a
+{
+	color: #626262;
+	padding-left: 15px;
+	font-size: 12px;
+}
+
+ul#menu li ul li a:hover
+{
+	background: #2fa7f3;
+	padding-top: 2px;
+	color: #fff;
+	font-size: 12px;
+	padding-left: 15px;
+}
+ul#menu li .one
+{
+	background: #ffec89;
+	border: 1px solid #cbaf40;
+}
+ul#menu li .apple
+{
+	background: #ffec89;
+	border-left: 1px solid #cbaf40;
+	border-bottom: 1px solid #cbaf40;
+	border-right: 1px solid #cbaf40;
+	top: 0;
+	margin-right: 0;
+}
+ul#menu li ul li .two
+{
+	background: #199df1;
+	border: 1px solid #6384ba;
+	color: #fff;
+	margin-top: 8px;
+}
+.bus
+{
+	top: 92px;
+	margin-left: 20px;
+	position: absolute;
+}
+.buy
+{
+	top: 278px;
+	margin-left: 35px;
+	position: absolute;
+}
+.tope
+{
+	top: -3px;
+	margin-left: 3px;
+	position: relative;
+}
+
+/* 李建杰 2011-6-26 begin pro left 40改为25 */
+.pro
+{
+	width: 771px;
+	position: relative;
+	top: 16px;
+	left: 23px;
+	height: 65px;
+}
+/* 李建杰 2011-6-26 end pro left 40改为25 */
+.datalist1
+{
+	border-style: none;
+	border-color: inherit;
+	border-width: 0;
+	width: 769px;
+}
+.datalist1 tr
+{
+	height: 20px;
+}
+.datalist1 input
+{
+	width: 147px;
+}
+
+
+/* 李建杰 2011-6-26 begin nav_2 left 35改为20 */
+.nav_2
+{
+	top: 12px;
+	left: 0px;
+	width: 771px;
+	height: 26px;
+	position: relative;
+	background: url(../pic/right_list_title_bg2.png) no-repeat;
+}
+/* 李建杰 2011-6-26 end nav_2 left 35改为20 */
+.nav_2 p
+{
+	color: #76650b;
+	top: 8px;
+	left: 18px;
+	position: absolute;
+	font-weight: bold;
+}
+/* 李建杰 2011-6-26 begin nav_3 left 35改为20 */
+.nav_3
+{
+	top: 15px;
+	left: 20px;
+	width: 771px;
+	height: 26px;
+	position: relative;
+	text-align: right;
+}
+/* 李建杰 2011-6-26 end nav_3 left 35改为20 */
+.btn
+{
+	width: auto;
+	height: 25px;
+	background: white;
+	border: 1px solid #f2dd81;
+	margin-left: 2px;
+	text-align: center;
+}
+.btn1
+{
+	width: auto;
+	height: 25px;
+	background: white;
+	border: 1px solid #f2dd81;
+	margin-left: 2px;
+	text-align: center;
+}
+
+/* 样式 2011-6-9 李建杰 BEGIN 
+.btn1{ height:20px ; background:#FFF; border:1px solid #999999; margin-left:2px;}*/
+/*样式 2011-6-9 李建杰 BEGIN */
+.pro_1
+{
+	top: 15px;
+	left: 23px;
+	width: 758px;
+	position: relative;
+}
+
+.datalist2
+{
+	border: 1px solid #f2dd81;
+	color: #333;
+	border-collapse: collapse;
+}
+/*添加datalist2中 td th 样式 2011-6-9 李建杰 BEGIN */
+.datalist2 td
+{
+	height: 25px;
+	border: 1px solid #f2dd81;
+	border-collapse: collapse;
+	text-align: center;
+}
+.datalist2 th
+{
+	height: 25px;
+	border: 1px solid #f2dd81;
+	border-collapse: collapse;
+}
+/*添加datalist2中 td th 样式 2011-6-9 李建杰 END */
+
+/* 时间样式 李建杰 BEGIN */
+.Wdate1
+{
+	background: url(../../../pic/an3.jpg) no-repeat right;
+}
+/* 时间样式 李建杰 edn */
+
+.datalist2 tr
+{
+	height: 25px;
+	width: 100%;
+}
+.datalist2 tr.altrow
+{
+	background-color: #fef5c7;
+}
+/*.datalist2 td a
+{
+	text-decoration: underline;
+	color: #0066ff;
+}*/
+.datalist3
+{
+	width: 800px;
+	color: #333;
+	border-collapse: collapse;
+}
+.datalist3 tr span
+{
+	color: #7d7d7d;
+}
+.datalist3 td
+{
+	height: 25px;
+	border: 1px solid #f2dd81;
+	border-collapse: collapse;
+	text-align: right;
+}
+/*****添加nav_4（批号样式）**2011-6-9* 王凤龙 BEGIN*/
+.nav_4
+{
+	top: 18px;
+	left: 35px;
+	width: 777px;
+	height: 26px;
+	position: relative;
+	text-align: center;
+}
+.nav_4 p
+{
+	color: #76650b;
+	left: 388px;
+	top: 3px;
+	position: absolute;
+	font-weight: bold;
+	text-align: center;
+	left: 388px;
+}
+/*****添加nav_4（批号样式）**2011-6-9* 王凤龙 END*/
+/*****添加nav_4（批号样式）**2011-6-9* 王凤龙 BEGIN*/
+.nav_4
+{
+	top: 3px;
+	left: 27px;
+	width: 749px;
+	height: 26px;
+	position: relative;
+	text-align: center;
+}
+.nav_4 p
+{
+	color: #76650b;
+	left: 388px;
+	top: 6px;
+	position: absolute;
+	font-weight: bold;
+	text-align: center;
+	left: 316px;
+}
+/*****添加nav_4（批号样式）**2011-6-9* 王凤龙 END*/
+
+/*-------------入职管理页-----------*/
+.container
+{
+	height: 1265px;
+	width: 874px;
+	margin: 0 auto;
+}
+.main_3
+{
+	height: 1188px;
+	width: 870px;
+	overflow: hidden;
+	background: #fffdf1;
+}
+/*.left_3{ background: url(../pic/left_3.jpg) no-repeat; height:1188px; width:150px; float:left; }
+*/.right_3
+{
+	width: 870px;
+	height: 1188px;
+	float: left;
+}
+/* begin jay create*/
+.titleV
+{
+	top: 15px;
+	left: 28px;
+	width: 765px;
+	height: 28px;
+	position: relative;
+}
+.titleV b
+{
+	font-size: 14px;
+	color: #76650b;
+}
+/* end jay create*/
+.title
+{
+	top: 25px;
+	left: 35px;
+	width: 790px;
+	height: 28px;
+	position: relative;
+}
+.title b
+{
+	font-size: 14px;
+	color: #76650b;
+}
+.title span
+{
+	color: #575757;
+	margin-left: 400px;
+}
+.father
+{
+	top: 20px;
+	left: 32px;
+	width: 600px;
+	height: auto;
+	position: relative;
+}
+.title_1
+{
+	width: 580px;
+	height: 25px;
+	left: 0px;
+	top: 15px;
+	position: relative;
+	background: url(../pic/right_list_title2.jpg) no-repeat;
+}
+.title_1 ul
+{
+	height: 20px;
+	list-style: none outside none;
+	margin-left: 18px;
+}
+.title_1 b
+{
+	color: #76650b;
+	top: 5px;
+	left: 5px;
+	position: absolute;
+}
+.datalist4
+{
+	top: 15px;
+	left: 15px;
+	width: 580px;
+	border: 0;
+	position: relative;
+}
+.datalist4 tr
+{
+	height: 28px;
+}
+
+.title_2
+{
+	width: 601px;
+	height: 25px;
+	left: 0px;
+	top: 30px;
+	position: relative;
+	background: url(../pic/right_hi_31.png) no-repeat;
+}
+.title_2 b
+{
+	color: #76650b;
+	top: 5px;
+	left: 5px;
+	position: absolute;
+}
+
+.datalist5
+{
+	top: 35px;
+	left: 15px;
+	width: 600px;
+	border: 0;
+	position: relative;
+}
+.datalist5 tr
+{
+	height: 28px;
+}
+
+.title_3
+{
+	width: 601px;
+	height: 25px;
+	left: 0px;
+	top: 50px;
+	position: relative;
+	background: url(../pic/right_hi_31.png) no-repeat;
+}
+.title_3 b
+{
+	color: #76650b;
+	top: 5px;
+	left: 5px;
+	position: absolute;
+}
+
+.datalist6
+{
+	top: 55px;
+	left: 15px;
+	width: 600px;
+	border: 0;
+	position: relative;
+}
+/*edit by lee 2011-6-22  left-28*/
+.datalist6 tr
+{
+	height: 28px;
+}
+
+.title_4
+{
+	width: 601px;
+	height: 25px;
+	left: 0px;
+	top: 75px;
+	position: relative;
+	background: url(../pic/right_hi_31.png) no-repeat;
+}
+.title_4 b
+{
+	color: #76650b;
+	top: 5px;
+	left: 5px;
+	position: absolute;
+}
+
+.datalist7
+{
+	top: 90px;
+	left: 28px;
+	width: 500px;
+	border: 0;
+	position: relative;
+}
+.datalist7 tr
+{
+	height: 28px;
+}
+.title_5
+{
+	width: 601px;
+	height: 25px;
+	left: 0px;
+	top: 105px;
+	position: relative;
+	background: url(../pic/right_hi_31.png) no-repeat;
+}
+.title_5 b
+{
+	color: #76650b;
+	top: 5px;
+	left: 5px;
+	position: absolute;
+}
+.title_6
+{
+	width: 601px;
+	left: 0px;
+	top: 125px;
+	position: relative;
+}
+.title_7
+{
+	width: 300px;
+	left: 230px;
+	top: 155px;
+	position: relative;
+}
+.son
+{
+	width: 190px;
+	height: 350px;
+	margin-top: 24px;
+	margin-right: 20px;
+	float: right;
+}
+.son ul
+{
+	margin-top: 20px;
+	margin-left: 50px;
+	list-style: none;
+}
+.son_1
+{
+	list-style-image: url(../pic/right_an1.jpg);
+	font-size: 14px;
+	font-weight: bold;
+}
+.son_2
+{
+	font-size: 12px;
+	margin-left: 6px;
+	margin-top: 5px;
+}
+.son ul a
+{
+	text-decoration: underline;
+	color: #0066ff;
+}
+.son ul a span
+{
+	margin-top: -3px;
+}
+
+/*文本框只读*/
+.inputreadonly
+{
+	border: 0px solid #9a9a9a;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+/*多行文本框 只保留下边框*/
+textarea
+{
+	border: 1px solid #999999;
+}
+
+/*翻页*/
+.pageddlList
+{
+	margin-right: 3px;
+}
+
+.input
+{
+	height: 15px;
+	border: 0px;
+	margin-top: 1px;
+	float: left;
+}
+
+.FaultClass
+{
+  border:1px solid color;
+	}
+/*.select{
+width:186px;
+height:20px;
+float:left;
+margin-top:1px;
+border:0px;
+color:#999999;
+
+}*/
+
+
+

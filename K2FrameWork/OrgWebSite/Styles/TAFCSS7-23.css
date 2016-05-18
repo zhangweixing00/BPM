@@ -1,0 +1,855 @@
+﻿/*************王凤龙*2011-7-12***************/
+/**整体框架**/
+*
+{
+	padding: 0;
+	margin-left: 0;
+	margin-top: 0;
+}
+.taf_contentmain
+{
+	width: 778px;
+	overflow: hidden;
+	margin-left: 20px;
+}
+
+
+.taf_contentmain input
+{
+	border-style: none;
+	border-color: inherit;
+	border-width: medium;
+	vertical-align: middle;
+	padding-top: 3px;
+}
+.taf_contentmain select
+{
+	border: none;
+}
+
+.taf_contentmain select option
+{
+	border: none;
+}
+.taf_contentmain .trcss
+{
+	height: 10px;
+}
+/**th中的字体**/
+th
+{
+	font-size: 12px;
+	font-weight: normal;
+	text-align: right;
+}
+td
+{
+	text-align: left;
+	font-size: 12px;
+}
+.viewrcss
+{
+	width: 148px;
+	border-bottom: 1px solid #999999;
+}
+/**表单信息**/
+.taf_topInfo
+{
+	width: 100%;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	border-bottom: #ffd600 2px solid;
+	color: #776408;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.taf_topInfo div
+{
+	float: left;
+}
+/**离职表单标题**/
+.taf_topInfo .taf_topInfo_title
+{
+	float: left;
+	margin-right: 5px;
+	text-align: center;
+	width: 100px;
+	color: #776408;
+	font-size: 13px;
+	font-weight: bold;
+}
+/**离职表单内容**/
+.taf_topInfo .taf_topInfo_txt
+{
+	margin-right: 5px;
+	color: #333333;
+	font-size: 12px;
+	width: 164px;
+	text-align: center;
+	font-weight: normal;
+	margin-left: 8px;
+}
+/**离职表单右边内容**/
+.taf_rightDataInfo
+{
+	position: inherit;
+	height: 250px;
+	background-image: url(../pic/right_menu_bg.jpg);
+	width: 100%;
+}
+.left_td
+{
+	width: 634px;
+}
+.right_td
+{
+	width: 164px;
+}
+.conter_right_menu_Info
+{
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	background-image: url('../pic/point.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: inherit;
+	width: 100%;
+}
+.conter_right_menu_Info span
+{
+	font-weight: bold;
+	color: #999999;
+	font-size: 13px;
+	margin-left: 18px;
+	position: inherit;
+	width: 100%;
+}
+
+.conter_right_menu_Info ul
+{
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 131px;
+}
+.conter_right_menu_Info ul li
+{
+	float: left;
+	font-size: 12px;
+	line-height: 28px;
+	width: 120px;
+}
+/**离职表单内容**/
+.taf_centenInfo
+{
+	width: 100%;
+	float: left;
+}
+.taf_baseEmplyeeInfo
+{
+	width: 100%;
+	margin-top: 8px;
+}
+.taf_baseEmplyeeInfo td
+{
+	height: 35px;
+}
+.taf_baseEmplyeeInfo .taf_emplyeeInfo
+{
+	position: inherit;
+	overflow: hidden;
+	width: 100%;
+}
+
+.taf_emplyeeInfo thead td
+{
+	height: 26px;
+	background-image: url(../pic/right_list_title_bg3.png);
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.taf_emplyeeInfo thead td span
+{
+	float: left;
+	margin-top: 4px;
+	margin-left: 15px;
+	color: #776408;
+	font-weight: bold;
+}
+
+.taf_dataInfo
+{
+	width: 100px;
+	margin-right: 3px;
+	float: right;
+	text-align: center;
+}
+.taf_dataInfo a
+{
+	color: Red;
+}
+
+.taf_emplyeeInfo tbody
+{
+	font-size: 12px;
+	font-weight: normal;
+}
+.taf_emplyeeInfo tbody .thcss
+{
+	width: 110px;
+	text-align: right;
+}
+
+.taf_emplyeeInfo tbody .tdcss
+{
+	width: 193px;
+	text-align: left;
+}
+.taf_emplyeeInfo tbody .thspancss
+{
+	width: 15px;
+	text-align: left;
+	color: Red;
+	padding-left: 3px;
+}
+.taf_emplyeeInfo tbody td .bordercss
+{
+	width: 99%;
+	border: 0px;
+	border-bottom: 1px solid #333333;
+}
+.taf_emplyeeInfo tbody td .inputcss
+{
+	width: 99%;
+	border: 1px solid #999999;
+}
+
+.taf_emplyeeInfo tbody td .faultclass
+{
+	border: 1px solid Red;
+}
+
+.taf_emplyeeInfo tbody td .imgbackcss
+{
+	cursor: hand;
+	background: url(/pic/menu1.png) no-repeat right;
+}
+
+/**重要信息显示**/
+.taf_ImportantInfo
+{
+	width: 100%;
+	border-top: 1px solid #ffd600;
+}
+
+.taf_ImportantInfo td
+{
+	height: 35px;
+}
+.taf_ImportantInfo span
+{
+	height: 26px;
+}
+
+.taf_ImportantInfo table
+{
+	position: inherit;
+	width: 100%;
+}
+
+.thcss
+{
+	width: 110px;
+	text-align: right;
+}
+
+.tdcss
+{
+	width: 191px;
+	text-align: left;
+}
+.thspancss
+{
+	width: 15px;
+	text-align: left;
+	color: Red;
+	padding-left: 3px;
+}
+.taf_assessInfo .datacss
+{
+    width: 14px;
+     text-align:right;
+      padding-left:1px;
+}
+.tdcss .imgCheckCss
+{
+	float: right;
+	margin-right: 16px;
+}
+/****--王红福--begin****/
+.tdcss .bordercss
+{
+	width: 90%;
+	border: 0px;
+	border-bottom: 1px solid #333333;
+}
+/****--王红福--end****/
+.taf_tdcss
+{
+	width: 518px;
+	text-align: left;
+}
+.taf_thspancss
+{
+	width: 15px;
+	text-align: left;
+	color: Red;
+	padding-left: 3px;
+}
+.taf_tdcss1
+{
+	width: 192px;
+	text-align: left;
+}
+.taf_tdcsswhy
+{
+	width: 326px;
+	text-align: left;
+	color: Red;
+	padding-left: 5px;
+}
+.thcssimg
+{
+	width: 106px;
+	text-align: right;
+}
+.tdcss .inputcss
+{
+	width: 99%;
+	border: 1px solid #999999;
+}
+.tdcss .faultclass
+{
+	border: 1px solid Red;
+}
+.tdcss .dropDownList
+{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+.taf_tdcss .dropDownList
+{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+.taf_tdcss1 .dropDownList
+{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+.taf_tdcss1 .spancss
+{
+	width: 100%;
+	position: inherit;
+	border: 1px solid #999999;
+	height: 22px;
+}
+
+.tdcss .spancss
+{
+	width: 99%;
+	position: inherit;
+	border: 1px solid #999999;
+	height: 22px;
+}
+
+
+/**特殊说明**/
+.taf_exceptional
+{
+	width: 100%;
+}
+
+.taf_exceptional table td
+{
+	height: 30px;
+}
+
+.taf_exceptional table
+{
+	position: inherit;
+	width: 100%;
+}
+
+.taf_td
+{
+	width: 400px;
+	text-align: left;
+}
+.taf_td .distinctive
+{
+	width: 98%;
+	border: 1px solid #999999;
+}
+.distinctive1
+{
+	width: 139px;
+	border: none;
+}
+.taf_tdcss .mul
+{
+	height: 57px;
+	font-size: 13px;
+}
+
+/**离职原因**/
+.taf_why
+{
+	width: 100%;
+}
+
+.taf_why table td
+{
+	height: 35px;
+}
+
+.taf_why table
+{
+	width: 100%;
+	position: inherit;
+}
+
+
+/**其他信息**/
+.taf_otherInfo
+{
+	width: 100%;
+}
+.taf_otherInfo table
+{
+	width: 100%;
+	position: inherit;
+}
+
+.taf_tdcss .inputcss
+{
+	width: 99%;
+	border: 1px solid #999999;
+}
+
+.taf_tdcss .faultclass
+{
+    border: 1px solid Red;
+}
+
+.taf_othertableInfo thead td
+{
+	height: 26px;
+	background-image: url(../pic/right_list_title_bg3.png);
+	font-size: 12px;
+	margin-top: 15px;
+}
+.taf_othertableInfo thead td span
+{
+	float: left;
+	margin-top: 4px;
+	margin-left: 15px;
+	color: #776408;
+	font-weight: bold;
+}
+
+/**邮件发送**/
+.taf_emailInfo
+{
+	width: 100%;
+}
+
+.taf_emailInfo table
+{
+	width: 100%;
+	position: inherit;
+}
+
+.taf_emailtableInfo thead td
+{
+	height: 26px;
+	background-image: url(../pic/right_list_title_bg3.png);
+	font-size: 12px;
+	margin-top: 15px;
+}
+.taf_emailtableInfo thead td span
+{
+	float: left;
+	margin-top: 4px;
+	margin-left: 15px;
+	color: #776408;
+	font-weight: bold;
+}
+
+/**离职人员信息**/
+.taf_liveEmply
+{
+	width: 100%;
+	margin-top: 8px;
+}
+.taf_liveEmply td
+{
+	height: 35px;
+}
+.taf_liveEmply .taf_taf_liveEmplyInfo
+{
+	position: inherit;
+	overflow: hidden;
+	width: 100%;
+}
+
+.taf_taf_liveEmplyInfo thead td
+{
+	height: 26px;
+	background-image: url(../pic/right_list_title_bg3.png);
+	font-size: 12px;
+	margin-top: 15px;
+}
+.taf_taf_liveEmplyInfo thead td span
+{
+	float: left;
+	margin-top: 4px;
+	margin-left: 15px;
+	color: #776408;
+	font-weight: bold;
+}
+
+.taf_taf_liveEmplyInfo tbody
+{
+	font-size: 12px;
+	font-weight: normal;
+}
+.taf_taf_liveEmplyInfo tbody th
+{
+	width: 110px;
+	text-align: right;
+}
+
+.taf_taf_liveEmplyInfo tbody td
+{
+	width: 207px;
+	text-align: left;
+}
+.taf_taf_liveEmplyInfo tbody td .bordercss
+{
+	width: 90%;
+	border-bottom: 1px solid #333333;
+	border-left-style: none;
+	border-left-color: inherit;
+	border-left-width: 0px;
+	border-right-style: none;
+	border-right-color: inherit;
+	border-right-width: 0px;
+	border-top-style: none;
+	border-top-color: inherit;
+	border-top-width: 0px;
+	margin-bottom: 0px;
+}
+.taf_taf_liveEmplyInfo tbody td .inputcss
+{
+	width: 90%;
+	border: 1px solid #999999;
+}
+
+/**财务薪酬信息**/
+.taf_salary
+{
+	width: 100%;
+}
+
+.taf_salary table
+{
+	width: 100%;
+	position: inherit;
+}
+
+.taf_salaryInfo thead td
+{
+	height: 26px;
+	background-image: url(../pic/right_list_title_bg3.png);
+	font-size: 12px;
+	margin-top: 15px;
+}
+.taf_salaryInfo thead td span
+{
+	float: left;
+	margin-top: 4px;
+	margin-left: 15px;
+	color: #776408;
+	font-weight: bold;
+}
+
+.taf_salaryInfo tbody th, .taf_salaryInfo tbody td
+{
+	width: 50%;
+	height: 35px;
+}
+.taf_salaryInfo .importcss
+{
+	width: 148px;
+	border: 1px solid #999999;
+}
+
+.taf_salaryInfo .viewrcss
+{
+	width: 148px;
+	border-bottom: 1px solid #999999;
+}
+
+/**助理薪酬信息**/
+.taf_assess
+{
+	width: 100%;
+}
+.taf_assess table
+{
+	width: 100%;
+	position: inherit;
+}
+
+.taf_assessInfo thead td
+{
+	height: 26px;
+	background-image: url(../pic/right_list_title_bg3.png);
+	font-size: 12px;
+	margin-top: 15px;
+}
+.taf_assessInfo thead td span
+{
+	float: left;
+	margin-top: 4px;
+	margin-left: 15px;
+	color: #776408;
+	font-weight: bold;
+}
+.taf_assessInfo tbody th, .taf_assessInfo tbody td
+{
+	height: 35px;
+}
+.thcssATD
+{
+	width: 100px;
+	text-align: right;
+}
+.taf_assessInfo .inputATDInner
+{
+	width: 60px;
+	border: 1px solid #999999;
+}
+.taf_assessInfo .inputATD
+{
+	width: 60px;
+	border-bottom: 1px solid #999999;
+}
+
+/**资产信息列表**/
+.taf_property, .taf_propertyhead
+{
+	width: 100%;
+}
+
+.taf_propertyhead td
+{
+	height: 35px;
+}
+.taf_propertyhead table
+{
+	width: 100%;
+	position: inherit;
+}
+
+.taf_propertyhead thead td
+{
+	height: 26px;
+	background-image: url(../pic/right_list_title_bg3.png);
+	font-size: 12px;
+	margin-top: 15px;
+}
+.taf_propertyhead thead td span
+{
+	float: left;
+	margin-top: 4px;
+	margin-left: 15px;
+	color: #776408;
+	font-weight: bold;
+}
+
+/**资产Gridview样式***/
+.taf_gvproperty
+{
+	border: 1px solid #f2dd81;
+	color: #333;
+	border-collapse: collapse;
+}
+.taf_gvproperty td
+{
+	height: 25px;
+	border: 1px solid #f2dd81;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 12px;
+	font-weight: normal;
+}
+.taf_gvproperty th
+{
+	height: 25px;
+	border: 1px solid #f2dd81;
+	border-collapse: collapse;
+	text-align: center;
+	font-weight: bold;
+}
+.taf_property .ddlinput
+{
+	height: 18px;
+	border: 1px solid #999999;
+}
+
+.taf_propertydataInfo
+{
+	width: 97%;
+}
+
+/**法律部门考情信息**/
+.taf_law
+{
+	width: 100%;
+}
+
+.taf_law table
+{
+	position: inherit;
+	width: 100%;
+}
+
+.taf_lawInfo thead td
+{
+	height: 26px;
+	background-image: url(../pic/right_list_title_bg3.png);
+	font-size: 12px;
+	margin-top: 15px;
+}
+.taf_lawInfo thead td span
+{
+	float: left;
+	margin-top: 4px;
+	margin-left: 15px;
+	color: #776408;
+	font-weight: bold;
+}
+.taf_lawInfo tbody th, .taf_lawInfo tbody td
+{
+	width: 50%;
+	height: 35px;
+}
+
+.taf_lawInfo tbody td .spancss
+{
+	width: 40%;
+	position: inherit;
+	border: 1px solid #999999;
+	height: 22px;
+}
+
+.taf_lawInfo tbody td .spancss .dropDownList
+{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+/**股票考情信息**/
+.taf_shares
+{
+	width: 100%;
+}
+
+.taf_shares table
+{
+	width: 100%;
+	position: inherit;
+}
+.taf_sharesInfo td
+{
+	height: 35px;
+}
+
+.taf_sharesInfo thead td
+{
+	height: 26px;
+	background-image: url(../pic/right_list_title_bg3.png);
+	font-size: 12px;
+	margin-top: 15px;
+}
+.taf_sharesInfo thead td span
+{
+	float: left;
+	margin-top: 4px;
+	margin-left: 15px;
+	color: #776408;
+	font-weight: bold;
+}
+.shthcss
+{
+	width: 90px;
+}
+
+.shtdcss
+{
+	width: 140px;
+}
+
+.shtdcss .inputcss
+{
+	width: 90%;
+	border: 1px solid #999999;
+}
+
+.taf_StopDiv
+{
+	width: 100%;
+}
+
+.taf_StopDiv table
+{
+	width: 100%;
+	position: inherit;
+}
+
+.taf_StopInfo td
+{
+	height: 35px;
+}
+
+.taf_StopInfo thead td
+{
+	height: 26px;
+	background-image: url(../pic/right_list_title_bg3.png);
+	font-size: 12px;
+	margin-top: 15px;
+}
+.taf_StopInfo thead td span
+{
+	float: left;
+	margin-top: 4px;
+	margin-left: 15px;
+	color: #776408;
+	font-weight: bold;
+}
+
+  .viewText
+    {
+         padding-left:4px;
+    }

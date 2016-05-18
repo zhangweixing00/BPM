@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <!--合同审批单中，物业集团各公司的代码-->
+  <!--root , columns 可以随意更改,但是必须成对出现-->
+  <Columns>
+    <ColumnsValueField>00000</ColumnsValueField>
+    <ColumnsTextField>请选择</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>BJ001</ColumnsValueField>
+    <ColumnsTextField>北京北大资源物业经营管理集团有限公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>BJ002</ColumnsValueField>
+    <ColumnsTextField>北大资源集团商业有限公司</ColumnsTextField>
+  </Columns><Columns>
+    
+
+    <ColumnsValueField>HFPK</ColumnsValueField>
+    <ColumnsTextField>北京北大资源物业经营管理集团有限公司海淀分公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>CPPK</ColumnsValueField>
+    <ColumnsTextField>北京北大资源物业经营管理集团有限公司昌平分公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>KSPK</ColumnsValueField>
+    <ColumnsTextField>北京北大资源物业经营管理集团有限公司昆山分公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>SZPK</ColumnsValueField>
+    <ColumnsTextField>北京北大资源物业经营管理集团有限公司深圳分公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>WHPK</ColumnsValueField>
+    <ColumnsTextField>北京北大资源物业经营管理集团有限公司武汉分公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>SZhPK</ColumnsValueField>
+    <ColumnsTextField>北京北大资源物业经营管理集团有限公司苏州分公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>SDPK</ColumnsValueField>
+    <ColumnsTextField>北京北大资源物业经营管理集团有限公司山东分公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>SHPK</ColumnsValueField>
+    <ColumnsTextField>北京北大资源物业经营管理集团有限公司上海分公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>EZPK</ColumnsValueField>
+    <ColumnsTextField>北京北大资源物业经营管理集团有限公司鄂州分公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>SHDL</ColumnsValueField>
+    <ColumnsTextField>上海德麟物业管理有限公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>SZGK</ColumnsValueField>
+    <ColumnsTextField>上海高科房地产有限公司深圳分公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>WHWB</ColumnsValueField>
+    <ColumnsTextField>深圳市万邦物业管理有限公司武汉分公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>SZWB</ColumnsValueField>
+    <ColumnsTextField>深圳市万邦物业管理有限公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>WHCT</ColumnsValueField>
+    <ColumnsTextField>武汉楚天时代创业投资有限公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>WHTX</ColumnsValueField>
+    <ColumnsTextField>武汉天馨物业发展有限公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>WHTZ</ColumnsValueField>
+    <ColumnsTextField>天泽控股有限公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>SHGK</ColumnsValueField>
+    <ColumnsTextField>上海高科房地产有限公司</ColumnsTextField>
+  </Columns><Columns>
+    <ColumnsValueField>SZFYT</ColumnsValueField>
+    <ColumnsTextField>苏州丰羽泰投资有限公司</ColumnsTextField>
+  </Columns>
+</Root>

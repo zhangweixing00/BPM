@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>北大资源OA移动版</title>
+    <link type="text/css" href="css/global.css" rel="stylesheet" />
+    <link type="text/css" href="css/swiper/swiper.min.css" rel="stylesheet" />
+    <link type="text/css" href="css/basicModal.min.css" rel="stylesheet" />
+    <link type="text/css" href="css/commonHeader.css?v=11" rel="stylesheet" />
+    <link type="text/css" href="css/personal.css" rel="stylesheet" />
+    <link type="text/css" href="css/daiBanShiXiang.css?v=5" rel="stylesheet" />
+    <script type="text/javascript" language="javascript" src="script/jquery/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" language="javascript" src="script/plugin/jquery.cookie.js"></script>
+    <script type="text/javascript" language="javascript" src="script/basicModal.min.js"></script>
+    <script type="text/javascript" language="javascript" src="script/layer/layer.js"></script>
+    <script type="text/javascript" language="javascript" src="script/swiper/swiper.min.js"></script>
+    <script type="text/javascript" language="javascript" src="script/commonScript.js?v=10"></script>
+    <script type="text/javascript" language="javascript" src="script/daiBanShiXiang.js?v=10"></script>
+    <script type="text/javascript" language="javascript" src="script/formDetail.js?v=10"></script>
+</head>
+<body style="background: #f0f4fb;">
+    <div class="commonHeader2">
+        <a class="return_btn" href="javascript:void(0);"></a>
+        <h1>
+        </h1>
+        <a class="index_btn" href="javascript:void(0);"></a>
+    </div>
+    <div class="wrap01">
+        <div class="wrap01_nav">
+            <ul class="clearfix">
+                <li class="active" style="width: 50%;"><a href="javascript:void(0);">流程详情</a></li>
+                <li style="width: 50%;"><a href="javascript:void(0);">电脑版详情</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrap01_content">
+        <div id="tabs-container" class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="daiBan daiBan0">
+                        <div class="daiBanShiXiang">
+                            <div class="qingShiDan">
+                                <div class="qingShiDan_title">
+                                </div>
+                                <div id="loading" style="display: none;">
+                                    <img src="css/images/loading_bg.gif" alt="加载中..." />
+                                </div>
+                                <div class="qingShiDan_content">
+                                    <h3 class="FormTitle">
+                                    </h3>
+                                    <table width="100%" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td width="90">
+                                                <span class="daiBanShiXiang_icon1"></span>发起人
+                                            </td>
+                                            <td>
+                                                <span class="StartUserName"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="90">
+                                                <span class="daiBanShiXiang_icon2"></span>发起部门
+                                            </td>
+                                            <td>
+                                                <span class="StartDeptName"></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="90">
+                                                <span class="daiBanShiXiang_icon3"></span>发起时间
+                                            </td>
+                                            <td>
+                                                <span class="StartTime"></span>
+                                            </td>
+                                        </tr>
+                                        <tr style="background: #e5e9f8;">
+                                            <td width="90" colspan="2">
+                                                <span class="daiBanShiXiang_icon4"></span>内容
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <span class="daiBanShiXiang_content"></span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="chaKanXiangQing_wrap" style="display: none;">
+                                        <a class="chaKanXiangQing" href="javascript:void(0);"><span class="daiBanShiXiang_search">
+                                        </span>查看详情</a></div>
+                                </div>
+                            </div>
+                            <div class="attachment_list">
+                                <div class="attachment_title">
+                                    附件列表：
+                                </div>
+                                <div class="attachment_content">
+                                    <div id="divAttachment">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shenPiLiuCheng">
+                                <div class="shenPiLiuCheng_title">
+                                    审批流程：
+                                </div>
+                                <div class="shenPiLiuCheng_content">
+                                    <div class="sCWrap_wrap">
+                                    </div>
+                                    <div class="sCWrap sCWrap_dis">
+                                        <!--按钮暂时放在这里-->
+                                        <div class="sCWrapContent1_btns">
+                                            <a id='btnAddSign' href="javascript:void(0);">加签</a>
+                                        </div>
+                                        <div class="sCWrap_title active">
+                                            审批意见：</div>
+                                        <div class="sCWrap_content1">
+                                            <textarea></textarea>
+                                            <!--20160308-->
+                                            <div id="tip" style="display: none; font-weight: normal; font-size: 12px;" class="shenPiLiuCheng_title">
+                                                <span style="color: Red;">招标定标流程提示：</span>招标委员会审批时，系统会自动选择第一入围单位，若选择第二入围单位，请在电脑上审批。
+                                            </div>
+                                            <!--20160308-->
+                                            <div class="sCWrapContent1_btns">
+                                                <span><a href="javascript:void(0);">不同意</a></span> <span><a href="javascript:void(0);">
+                                                    同意</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="daiBan daiBan1">
+                        <div class="i-scroll-wrapper">
+                            <iframe id="ifrPCDetail" width='100%' height='100%' frameborder='0'></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="divAddSign" style="display: none;">
+        <div class="i-div-addsign">
+            <div style="margin-bottom: 3px; vertical-align: bottom;">
+                <table width="100%">
+                    <tr>
+                        <td style="width: 80%;">
+                            <input id="iptUserAccount" type="text" class="i-input-text" placeholder="输入域账号、姓名或姓名全拼进行查询" />
+                        </td>
+                        <td style="width: 20%;">
+                            <a id="btnSearch" class="ibtn">搜索</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="divAddSignHistory" style="padding-bottom: 6px; display: none;">
+                <div>
+                    <span class="i-span-addsign-backgroundimage"></span><span>常用加签人</span></div>
+                <div id="divdivAddSignHistoryContent" style="padding-left: 16px;">
+                    <span class="i-span-addsign">徐鹏超(xupc)</span> <span class="i-span-addsign">徐鹏超(xupc)</span>
+                </div>
+            </div>
+            <!-- <div class="i-tip" style="display: none;">
+                <a class="loadMore loadMore1" href="javascript:void(0);"><span><b>输入用户信息，点击搜索进行查询</b></span></a>
+            </div>-->
+            <div id="divUser" style="height: 200px; overflow-y: scroll; padding-top: 8px;">
+                <table class="i-table table-striped" style="border-bottom: 1px solid #dddddd;">
+                    <thead>
+                        <tr>
+                            <td id="tdHead" style="text-align: center;">
+                                --- 输入用户信息，点击搜索进行查询 ---
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody id="tbUser">
+                    </tbody>
+                </table>
+            </div>
+            <div style="height: 40px; padding-bottom: 4px; vertical-align: top;">
+                <table width="100%" style="height: 100%;">
+                    <tr>
+                        <td style="width: 50%;">
+                            <a id="btnLastPage" style="display: none; text-align: right;" href="javascript:void(0);"
+                                class="i-loadMore">上一页</a>
+                        </td>
+                        <td style="width: 50%; padding-left: 10px;">
+                            <a id="btnNextPage" style="display: none; text-align: left;" href="javascript:void(0);"
+                                class="i-loadMore">下一页</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="vertical-align: bottom; height: 20%; padding-bottom: 4px;">
+                <a id="btnSignOK" class="ibtn">加签</a><div style="border: 5px solid white;">
+                </div>
+                <a id="btnClose" class="ibtn-cancel">取消</a>
+            </div>
+        </div>
+    </div>
+    <input id="hdPageIndex" type="hidden" />
+</body>
+</html>

@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12.75, 11" name="BizFormDB">
+  <DataContextMoniker Name="/BizFormDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="45482bcc-8289-4191-9e9b-99cfb07da67c" isExpanded="false" absoluteBounds="0.625, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_CustomWorkFlowInstance" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1fdf4e61-18c0-4a30-973f-b7514bff9f64" absoluteBounds="0.64000000000000012, 0.96, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="de7db9ed-166c-4179-ab0a-a330493777eb" isExpanded="false" absoluteBounds="7.875, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/BP_LeaseContract" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6f8254c0-b036-429a-9a2f-3eb326553728" absoluteBounds="7.8900000000000006, 0.96, 1.9700000000000002, 5.787038167317708" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9af0b403-4b28-4559-853e-7e1913557498" isExpanded="false" absoluteBounds="3, 5.5, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_SystemDispatch" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7785b22a-3628-44a2-893c-be20045affec" absoluteBounds="3.015, 5.96, 1.9700000000000002, 2.921742757161458" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9b0703bf-da98-4e8f-9c14-9049452928e7" isExpanded="false" absoluteBounds="5.375, 1.125, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/ERP_PaymentApplication" />
+      <nestedChildShapes>
+        <elementListCompartment Id="429da469-4ef6-4e53-a7b1-98440378937e" absoluteBounds="5.3900000000000006, 1.585, 1.9700000000000002, 1.966644287109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2e659d24-952d-40ad-8ca9-f9dfef64ed45" isExpanded="false" absoluteBounds="7.875, 1.75, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/JC_BidScaling" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c23801fb-1366-4d55-beae-d6561448215e" absoluteBounds="7.8900000000000006, 2.21, 1.9700000000000002, 3.112762451171875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e1021e66-af89-4fe9-90f8-ae16772a2dfc" isExpanded="false" absoluteBounds="7.875, 2.375, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/JC_BidScalingList" />
+      <nestedChildShapes>
+        <elementListCompartment Id="47729b8d-cb8c-49ce-94dd-6bf32fc46ff2" absoluteBounds="7.8900000000000006, 2.8350000000000009, 1.9700000000000002, 1.393585205078125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="399fada8-c241-4a53-b147-55073d744c7f" isExpanded="false" absoluteBounds="7.875, 1.125, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/JC_ElevatorOrder" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b11faee3-4c54-4e0e-be92-561ff9ebd2f2" absoluteBounds="7.8900000000000006, 1.585, 1.9700000000000002, 4.4499003092447911" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b59d83b2-a7f3-46e7-8756-e19c8622473a" isExpanded="false" absoluteBounds="7.875, 3.625, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/JC_FinalistApprovalOrder" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a073b3c2-a8d5-429f-b278-7e14cfa7f2ec" absoluteBounds="7.8900000000000006, 4.0850000000000009, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fc32319c-730e-4975-8ddf-42130770fc76" isExpanded="false" absoluteBounds="7.875, 4.25, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/JC_TenderRequirementsApply_CityCompany" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4ee6f5ca-8cde-44ef-9a26-429387016cb1" absoluteBounds="7.89, 4.71, 2.5949999999999998, 3.3037821451822915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ecbcc86c-82de-4cb0-832b-fa020d6ac7f7" isExpanded="false" absoluteBounds="7.875, 3, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/JC_TenderRequirementsApply_Group" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0fc78701-c995-404f-89b9-b1871dec3075" absoluteBounds="7.8900000000000006, 3.46, 1.9700000000000002, 2.7307230631510415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b18e5045-900c-4c11-9092-167caedcf928" isExpanded="false" absoluteBounds="7.875, 4.875, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/JC_TenderSpecialItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8de765df-1b02-4a67-a4fa-547175b2b071" absoluteBounds="7.89, 5.3350000000000009, 1.9700000000000002, 3.494801839192708" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6b558a1d-8e71-46d6-bf22-ca7b877f8158" isExpanded="false" absoluteBounds="3, 4.875, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_ContractAuditOfEToG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="056f989d-a2cc-4423-8a74-498fd2b9f468" absoluteBounds="3.0150000000000006, 5.3350000000000009, 1.9700000000000002, 7.124176025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="781cc42c-f62e-476e-bac4-3f050f678738" isExpanded="false" absoluteBounds="3, 4.25, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_ContractAuditOfEToI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="83d3a1df-f9dd-4b07-b077-ec7a812583f3" absoluteBounds="3.0150000000000006, 4.7100000000000009, 1.9700000000000002, 7.124176025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8893830d-bdfe-4fe4-bc23-55b6f2c2b332" isExpanded="false" absoluteBounds="3, 3.625, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_ContractAuditOfGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a8ba0ade-3f14-4b87-8af3-ebe8be26e662" absoluteBounds="3.0150000000000006, 4.085, 1.9700000000000002, 7.124176025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d7b27f97-a3ca-4c05-a63b-21c4e7f1b9f9" isExpanded="false" absoluteBounds="3, 3, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_ContractAuditOfPKURGI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="39a2c5c2-2e3b-483b-bfb4-797a2705d67e" absoluteBounds="3.0150000000000006, 3.4600000000000009, 1.9700000000000002, 7.124176025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b33c305e-97cc-4027-bdfa-6bc79f36e16e" isExpanded="false" absoluteBounds="0.625, 1.125, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_CustomWorkFlowInstance1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38fb6560-2b96-46e7-9ab9-86eab64a6abd" absoluteBounds="0.64000000000000012, 1.5850000000000009, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f7d8a8c0-aec0-4a8f-901a-03204c434f23" isExpanded="false" absoluteBounds="3, 2.375, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_InstructionOfEToG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e3ab89d-9110-4aba-ba9e-023a01f0a1ab" absoluteBounds="3.015, 2.8350000000000009, 1.9700000000000002, 2.7307230631510415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bfd0d9da-506d-4630-8e5d-6162fc000417" isExpanded="false" absoluteBounds="3, 1.75, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_InstructionOfEToI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ea3beb34-6c44-4258-b5d1-16e3d1f0afdb" absoluteBounds="3.0150000000000006, 2.21, 1.9700000000000002, 2.7307230631510415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="98c09e92-0aa0-4b79-8d72-9c2bbb267d7a" isExpanded="false" absoluteBounds="3, 1.125, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_InstructionOfGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bf322c1a-a886-48c9-830d-69b184e6fa46" absoluteBounds="3.0150000000000006, 1.585, 1.9700000000000002, 2.921742757161458" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e483293-89ca-41c8-b3d2-94b3f33e5e4c" isExpanded="false" absoluteBounds="3, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_InstructionOfPKURGI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="530ec950-0705-46de-bd1c-865416543aae" absoluteBounds="3.0150000000000006, 0.96000000000000085, 1.9700000000000002, 2.921742757161458" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ec5bc336-73fc-4e53-8fa2-13ee5787a8d2" isExpanded="false" absoluteBounds="3, 6.125, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_SealOfGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58cdcd33-76e0-4d46-aeda-4d46777e3434" absoluteBounds="3.0150000000000006, 6.5850000000000009, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0c3cde57-8935-4af9-bf8c-8baf828b09cd" isExpanded="false" absoluteBounds="3, 6.75, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_SealOfPKURGI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8e7e39bd-c780-41e8-a426-6e7c4cbc7111" absoluteBounds="3.0150000000000006, 7.2100000000000009, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="73801438-3e60-498d-91e0-da822122237e" isExpanded="false" absoluteBounds="5.375, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/ERP_ContractApproval" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a4aefe84-6007-4b23-87d0-6aaabd32968c" absoluteBounds="5.39, 0.96, 1.9700000000000002, 2.1576639811197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e8359aee-81e0-4bcc-b785-401d2d95817d" isExpanded="false" absoluteBounds="5.375, 1.75, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/ERP_Instruction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="515ee964-cfbc-4f69-9ab0-a838fb6afeab" absoluteBounds="5.39, 2.21, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="664c7e13-de7e-430d-8fbb-7ea07d353c01" isExpanded="false" absoluteBounds="5.375, 2.375, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/ERP_SupplementalAgreement" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eaf663fc-009a-40db-b730-4064000e3a0f" absoluteBounds="5.39, 2.8350000000000009, 1.9700000000000002, 2.1576639811197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9c1e6010-9e43-4e6d-83e5-3f42d5deac40" isExpanded="false" absoluteBounds="5.375, 3, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/ERP_ContractFinalAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c5711131-abf1-456f-b24d-c63fe717f3e6" absoluteBounds="5.3900000000000006, 3.4600000000000009, 1.9700000000000002, 1.966644287109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c3b6873e-2103-4128-af2c-d666b7475418" isExpanded="false" absoluteBounds="0.625, 1.75, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/V_ITSupport_Question" />
+      <nestedChildShapes>
+        <elementListCompartment Id="20fb1732-f758-4a9a-b5ac-ffe26cbd3031" absoluteBounds="0.63999999999999968, 2.2100000000000009, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a2c01866-213f-4cdd-8f91-c68e201ab31c" isExpanded="false" absoluteBounds="0.625, 2.375, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/V_ITSupport_Catalog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e6cf9b54-52d5-4e32-ab20-77add84d9464" absoluteBounds="0.64000000000000057, 2.8350000000000009, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="94dc3338-4350-499c-88fb-cf7e50d16857" isExpanded="false" absoluteBounds="0.625, 3, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/V_ITSupport_ITGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a527c631-6d99-4319-ae63-907859c9d2c6" absoluteBounds="0.63999999999999968, 3.4600000000000009, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d413db34-2de2-419a-a7ac-197b1d46fc4a" isExpanded="false" absoluteBounds="10.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/HR_EmployeeNeed" />
+      <nestedChildShapes>
+        <elementListCompartment Id="17e51bc1-f535-4ac0-aeab-fee91de96f49" absoluteBounds="10.515, 0.96, 1.9700000000000002, 3.685821533203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a5bfc48b-faeb-438c-862e-4cdb2f2af8f3" isExpanded="false" absoluteBounds="10.5, 1.125, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/HR_Employment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3ab1ed1a-4f0b-46e3-9ec7-fffcfba6dc35" absoluteBounds="10.515, 1.585, 1.9700000000000002, 3.685821533203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ca3f3d58-df8e-445c-928d-abba515bcaac" isExpanded="false" absoluteBounds="10.5, 1.75, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/HR_EmployeeRegular" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c4e17819-9d7d-48b7-af07-94dc14a142f9" absoluteBounds="10.515, 2.21, 1.9700000000000002, 6.933156331380208" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bfd384d5-40c6-408a-ab72-e9d6e9151134" isExpanded="false" absoluteBounds="10.5, 3, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/HR_SalaryAdjust" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1fbb1c74-d598-4946-8533-9075561e2aa1" absoluteBounds="10.515, 3.46, 1.9700000000000002, 3.494801839192708" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e76d8d01-84b5-4c01-853c-3158b7724a47" isExpanded="false" absoluteBounds="10.5, 3.625, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/HR_CadresOrRemoval" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1a20a69b-4d60-4141-9c34-0d747e7f15a1" absoluteBounds="10.515, 4.085, 1.9700000000000002, 2.7307230631510415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="897a6dc9-78d0-4894-b61c-fbb6230f3891" isExpanded="false" absoluteBounds="10.5, 4.25, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/HR_EmployeeLeft" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5a389cdc-ab31-4d9b-8570-d12ef518e3ae" absoluteBounds="10.515, 4.71, 1.9700000000000002, 2.7307230631510415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="86df89ce-2a61-47b8-a55d-2ccd0ebcd740" isExpanded="false" absoluteBounds="10.5, 4.875, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/HR_InternEmploy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4a5d90b0-7c1d-4ec2-ac93-8e9b28c43df3" absoluteBounds="10.515, 5.335, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="36e5bdcc-bebd-44cd-a437-4e8c0ac0ff9e" isExpanded="false" absoluteBounds="3, 7.375, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_ITSupport_Form" />
+      <nestedChildShapes>
+        <elementListCompartment Id="09c28bb4-21a2-4613-8e16-d69b8d03c714" absoluteBounds="3.015, 7.8350000000000009, 1.9700000000000002, 3.494801839192708" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f2a16675-632c-41b1-ad86-719097a6a431" isExpanded="false" absoluteBounds="3, 9.5, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_ITSupport_Step" />
+      <nestedChildShapes>
+        <elementListCompartment Id="804f43dd-529e-4b2c-a2e7-68fb6f685541" absoluteBounds="3.015, 9.96, 1.9700000000000002, 2.1576639811197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="54554940-7677-4c04-9046-9fc8ccf6dffc" isExpanded="false" absoluteBounds="3, 10.25, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_ITSupport_Step_Users" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2a9f1318-1e7b-4930-8dde-40c853f77385" absoluteBounds="3.0149999999999997, 10.71, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cfde53d2-1b09-4d54-917f-168cadde8ada" isExpanded="false" absoluteBounds="10.5, 2.375, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/HR_EmployeeTransfer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="efb3ea3a-ee32-4696-b0a0-2f32e3315e6e" absoluteBounds="10.515, 2.835, 1.9700000000000002, 6.1690775553385411" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="19166021-e0f4-49a7-94ac-6d8f1a1b900e" isExpanded="false" absoluteBounds="0.625, 6.125, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_SealOfEWY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="debd8eb8-c461-45dc-b0dc-e9247c0ae7e8" absoluteBounds="0.63999999999999968, 6.585, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a8d91620-b873-4d20-9356-c033cbe153d3" isExpanded="false" absoluteBounds="0.625, 5.5, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_SealOfWY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c5005d8-d71b-4506-a8d3-db5800d617e0" absoluteBounds="0.64000000000000057, 5.96, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d1c3c258-34f0-4cde-afc4-a02ad3b77549" isExpanded="false" absoluteBounds="5.375, 3.75, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/ERP_ContractPlanningBalance" />
+      <nestedChildShapes>
+        <elementListCompartment Id="05d1094f-186a-4fe5-a7c8-eb2fec3ede97" absoluteBounds="5.39, 4.21, 1.9700000000000002, 1.5846048990885415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5e1d2db0-efec-4b1a-81d9-58d33826be27" isExpanded="false" absoluteBounds="0.625, 4.875, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_ContractOfWY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6be10f7d-533f-42d1-a3ab-0341ffd39f77" absoluteBounds="0.64000000000000012, 5.335, 1.9700000000000002, 7.506215413411458" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="546a46e5-dbce-42f8-b57d-c14bc911f654" isExpanded="false" absoluteBounds="0.625, 4.25, 2, 0.45">
+      <DataClassMoniker Name="/BizFormDBDataContext/OA_InstructionOfWY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9322ea81-a222-4d9a-b4df-773e4396012d" absoluteBounds="0.64, 4.71, 1.9700000000000002, 3.3037821451822915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

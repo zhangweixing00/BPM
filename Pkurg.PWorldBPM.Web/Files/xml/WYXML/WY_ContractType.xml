@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <FirstTypeInfo key='00' value='请选择'>
+  </FirstTypeInfo>
+  <FirstTypeInfo key='01' value='框架、意向书类合同'>
+    <SecondTypeInfo key='0101' value='项目意向书'>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0102' value='框架协议'>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0103' value='合作开发协议'>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0104' value='商业地产合作协议'>
+    </SecondTypeInfo>
+  </FirstTypeInfo>
+  <FirstTypeInfo key='02' value='采购类合同（非房地产开发）'>
+    <SecondTypeInfo key='0201' value='设备采购类'>
+      <ThirdTypeInfo key='020101' value='房地产类采购战略协议/集中采购协议'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='020102' value='行政类采购/维护合同'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0202' value='广告类'>
+      <ThirdTypeInfo key='020201' value='物业管理类广告合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='020202' value='招聘广告合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='020203' value='企业形象类广告合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='020204' value='其它广告类合同'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0203' value='中介类'>
+      <ThirdTypeInfo key='020301' value='财务外包合同、财务顾问合同 '>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='020302' value='法律服务合同、会计/审计服务合同'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0204' value='免税商业类'>
+      <ThirdTypeInfo key='020401' value='免税店相关加盟协议'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='020402' value='免税品牌合作协议'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='020403' value='免税商品进货协议'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='020404' value='其它免税商业业务合同'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0205' value='承租类（自用）'>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0206' value='人事类'>
+      <ThirdTypeInfo key='020601' value='培训类合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='020602' value='招聘服务委托合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='020603' value='其他人事类合同'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0207' value='企业文化活动类'>
+      <ThirdTypeInfo key='020701' value='品牌活动类合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='020702' value='会议/论坛类合同'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0208' value='公益类'>
+      <ThirdTypeInfo key='020801' value='捐赠协议、捐助协议、公益赞助协议'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0209' value='贸易类'>
+      <ThirdTypeInfo key='020901' value='工矿产品、钢材等供销合同'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0210' value='基建类'>
+      <ThirdTypeInfo key='021001' value='设计类合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='021002' value='施工类合同 '>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='021003' value='装修/维修类合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='021004' value='其他基建类合同'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+  </FirstTypeInfo>
+  <FirstTypeInfo key='03' value='采购类合同（房地产开发）'>
+    <SecondTypeInfo key='0301' value='土地类'>
+      <ThirdTypeInfo key='030101' value='土地使用权类'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030102' value='拆迁补偿协议及委托拆迁合同'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0302' value='前期费用类'>
+      <ThirdTypeInfo key='030201' value='造价咨询合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030202' value='评估类（环评、交评、地震评估等有实际合同）'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030203' value='地勘合同、测绘合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030204' value='监理合同 '>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030205' value='招标代理合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030206' value='设计合同 '>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0303' value='建设工程类'>
+      <ThirdTypeInfo key='030301' value='非战略施工总承包合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030302' value='基坑支护施工合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030303' value='土石方施工合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030304' value='桩基施工合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030305' value='消防工程施工合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030306' value='外装修工程合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030307' value='幕墙工程合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030308' value='供电工程合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030309' value='弱电工程合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030310' value='燃气工程合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030311' value='采暖工程合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030312' value='安装施工合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030313' value='样板间\售楼处装修合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030314' value='其它建设工程类合同'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0304' value='设备采购类'>
+      <ThirdTypeInfo key='030401' value='建材采购合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030402' value='建筑设备采购安装/维护合同'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0305' value='战略类合同'>
+      <ThirdTypeInfo key='030501' value='总承包施工合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030502' value='室内精装修施工合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030503' value='景观园林施工合同'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0306' value='集采类合同'>
+      <ThirdTypeInfo key='030601' value='电梯合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030602' value='入户门/防火门合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030603' value='洁具合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030604' value='低压配电产品合同'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0307' value='营销类'>
+      <ThirdTypeInfo key='030701' value='媒体发布、制作、活动及其它营销类合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030702' value='定位策划、广告代理、销售代理合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='030703' value='认购协议和商品房买卖合同'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+  </FirstTypeInfo>
+  <FirstTypeInfo key='04' value=' 融资担保类合同'>
+    <SecondTypeInfo key='0401' value='信托合同'>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0402' value='基金/资金合同'>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0403' value='担保合同（为我方担保/我方提供担保）'>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0404' value='贷款合同'>
+    </SecondTypeInfo>
+  </FirstTypeInfo>
+  <FirstTypeInfo key='05' value='股权类合同'>
+    <SecondTypeInfo key='0501' value='投资协议/章程（公司、合伙等）'>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0502' value='股权转让协议'>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0503' value='股权收购协议'>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0504' value='股权质押协议'>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0505' value='股权代持协议'>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0506' value='其它股权类合同 '>
+    </SecondTypeInfo>
+  </FirstTypeInfo>
+  <FirstTypeInfo key='06' value='物业收费类合同'>
+    <SecondTypeInfo key='0601' value='物业管理合同'>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0602' value='租赁类合同（对外出租）'>
+      <ThirdTypeInfo key='060201' value='商铺/写字楼/厂房租赁合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='060202' value='住宅租赁合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='060203' value='车位租赁合同'>
+      </ThirdTypeInfo>
+      <ThirdTypeInfo key='060204' value='其他租赁合同'>
+      </ThirdTypeInfo>
+    </SecondTypeInfo>
+  </FirstTypeInfo>
+  <FirstTypeInfo key='07' value='劳动管理类合同'>
+    <SecondTypeInfo key='0701' value='劳动合同、劳务合同、实习合同'>
+    </SecondTypeInfo>
+    <SecondTypeInfo key='0702' value='保密协议、竞业禁止协议'>
+    </SecondTypeInfo>
+  </FirstTypeInfo>
+</Root>

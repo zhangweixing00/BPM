@@ -1,0 +1,30 @@
+﻿.groupContent
+{
+    margin: 20px 20px 5px 20px;
+    font-weight: bold;
+    color: #999;
+    border: 1px solid #eaeaea; /* background-color: #f4f9fe;*/
+    vertical-align: middle;
+}
+.groupContent select
+{
+    height: auto;
+    width: 200px;
+    margin: 0px 10px 0px 10px;
+    vertical-align: middle;
+}
+.groupContent input
+{
+    height: auto;
+    width: 80px;
+    height:30px;
+    margin:0 20px 0 20px;
+    vertical-align:middle;
+}
+.groupUsers
+{
+    height: auto;
+    width: 500px;
+    margin:10px 0px 10px 5px;
+    vertical-align:middle;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://xmlns.oracle.com/apps/cux/soaprovider/plsql/cux_cost_report_appr_util_pkg/" xmlns:tns1="http://xmlns.oracle.com/apps/cux/soaprovider/plsql/cux_cost_report_appr_util_pkg/cux_appr_result/" name="CUX_COST_REPORT_APPR_UTIL_PKG" targetNamespace="http://xmlns.oracle.com/apps/cux/soaprovider/plsql/cux_cost_report_appr_util_pkg/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <schema elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/apps/cux/soaprovider/plsql/cux_cost_report_appr_util_pkg/cux_appr_result/" xmlns="http://www.w3.org/2001/XMLSchema">
+      <include schemaLocation="http://f63dev.founder.com:8030/webservices/SOAProvider/plsql/cux_cost_report_appr_util_pkg/APPS_CUX_COST_REPORT_APPR_UTIL_PKG_CUX_APPR_RESULT.xsd" />
+    </schema>
+    <schema elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/apps/cux/soaprovider/plsql/cux_cost_report_appr_util_pkg/" xmlns="http://www.w3.org/2001/XMLSchema">
+      <element name="SOAHeader">
+        <complexType>
+          <sequence>
+            <element minOccurs="0" name="Responsibility" type="string" />
+            <element minOccurs="0" name="RespApplication" type="string" />
+            <element minOccurs="0" name="SecurityGroup" type="string" />
+            <element minOccurs="0" name="NLSLanguage" type="string" />
+            <element minOccurs="0" name="Org_Id" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </types>
+  <message name="CUX_APPR_RESULT_Input_Msg">
+    <part name="header" element="tns:SOAHeader" />
+    <part name="body" element="tns1:InputParameters" />
+  </message>
+  <portType name="CUX_COST_REPORT_APPR_UTIL_PKG_PortType">
+    <operation name="CUX_APPR_RESULT">
+      <input message="tns:CUX_APPR_RESULT_Input_Msg" />
+    </operation>
+  </portType>
+  <binding name="CUX_COST_REPORT_APPR_UTIL_PKG_Binding" type="tns:CUX_COST_REPORT_APPR_UTIL_PKG_PortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="CUX_APPR_RESULT">
+      <soap:operation soapAction="http://f63dev.founder.com:8030/webservices/SOAProvider/plsql/cux_cost_report_appr_util_pkg/" />
+      <input>
+        <soap:header message="tns:CUX_APPR_RESULT_Input_Msg" part="header" use="literal" />
+        <soap:body use="literal" parts="body" />
+      </input>
+    </operation>
+  </binding>
+  <service name="CUX_COST_REPORT_APPR_UTIL_PKG_Service">
+    <port name="CUX_COST_REPORT_APPR_UTIL_PKG_Port" binding="tns:CUX_COST_REPORT_APPR_UTIL_PKG_Binding">
+      <soap:address location="http://f63dev.founder.com:8030/webservices/SOAProvider/plsql/cux_cost_report_appr_util_pkg/" />
+    </port>
+  </service>
+</definitions>

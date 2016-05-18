@@ -1,0 +1,37 @@
+.login .banner{ width:100%; background:url(images/background_denglu.png) no-repeat 0px 0px; background-size:100% 100%; position:relative;}
+.login span.BDZY_logo{ position:absolute; left:50%; top:50%; background:url(images/pic_logo.png) no-repeat; background-size:100%;}
+
+.login .ul01{}
+.login .ul01 li label{ display:block;}
+.login .div01 ,.login .div02{border-bottom:1px solid #d9e5fb;}
+.login .div01{ background:#FFF url(images/login_icon1.png) no-repeat 30px center;}
+.login .div02{ background:#FFF url(images/login_icon2.png) no-repeat 30px center;}
+
+.login .input_wrap{border-left:1px solid #d9e5fb; position:relative;}
+.login span.mr_userName{ position:absolute; top:0px; left:10px;color:#151515;}
+.login .div01 input ,.login .div02 input{ width:100%; -webkit-box-sizing:border-box; border:none; background:none; color:#151515; }
+
+.login a.loginBtn{ display:block; background:#43c0dd; color:#FFF; text-align:center; -webkit-border-radius:5px;
+-webkit-box-shadow:0px 2px #39a3bc;
+}
+
+
+
+
+
+
+
+
+.login .banner{ height:100px;}
+.login span.BDZY_logo{width:80px; height:80px; margin-left:-40px; margin-top:-40px;}
+
+.login .ul01 li{ padding-bottom:5px;}
+.login .div01 ,.login .div02{ padding-top:5px; padding-bottom:5px; padding-left:60px; background-size:20px;}
+
+.login .input_wrap1{ padding-left:61px;}
+.login span.mr_userName{ line-height:29px;}
+.login .div01 input{ padding:6px 20px 6px 0px;}
+.login .div02 input{ padding:6px 20px 6px 10px;}
+
+.login .loginBtn_wrap{ padding:10px 20px;}
+.login a.loginBtn{ line-height:35px; font-size:14px;}

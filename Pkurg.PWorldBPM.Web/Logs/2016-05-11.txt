@@ -1,0 +1,141 @@
+2016-05-11 16:59:15,214 [22] ERROR ASP.global_asax [(null)] - [method: Invoke], Message:
+【Who】:FOUNDER\zhangweixing
+【Where】:http://localhost:62180/Login.aspx
+【What】System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.UnauthorizedAccessException: 对路径“F:\Work\BPM2.0\Pkurg.PWorldBPM.Web\Resource\LoginUsers.xml”的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   在 System.Xml.XmlWriterSettings.CreateWriter(String outputFileName)
+   在 System.Xml.XmlWriter.Create(String outputFileName, XmlWriterSettings settings)
+   在 System.Xml.Linq.XElement.Save(String fileName, SaveOptions options)
+   在 System.Xml.Linq.XElement.Save(String fileName)
+   在 LoginUser.Insert(String from, String to) 位置 f:\Work\BPM2.0\Pkurg.PWorldBPM.Web\App_Code\LoginUser.cs:行号 34
+   在 Login.btnConfirm_Click(Object sender, EventArgs e) 位置 f:\Work\BPM2.0\Pkurg.PWorldBPM.Web\Login.aspx.cs:行号 41
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.login_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\25db999c\481b158d\App_Web_e0kzb01u.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-05-11 16:59:42,169 [82] ERROR ASP.global_asax [(null)] - [method: Invoke], Message:
+【Who】:FOUNDER\zhangweixing
+【Where】:http://localhost:62180/Login.aspx
+【What】System.Web.HttpUnhandledException (0x80004005): 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.UnauthorizedAccessException: 对路径“F:\Work\BPM2.0\Pkurg.PWorldBPM.Web\Resource\LoginUsers.xml”的访问被拒绝。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   在 System.Xml.XmlWriterSettings.CreateWriter(String outputFileName)
+   在 System.Xml.XmlWriter.Create(String outputFileName, XmlWriterSettings settings)
+   在 System.Xml.Linq.XElement.Save(String fileName, SaveOptions options)
+   在 System.Xml.Linq.XElement.Save(String fileName)
+   在 LoginUser.Insert(String from, String to) 位置 f:\Work\BPM2.0\Pkurg.PWorldBPM.Web\App_Code\LoginUser.cs:行号 34
+   在 Login.btnConfirm_Click(Object sender, EventArgs e) 位置 f:\Work\BPM2.0\Pkurg.PWorldBPM.Web\Login.aspx.cs:行号 41
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.login_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\25db999c\481b158d\App_Web_e0kzb01u.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-05-11 17:00:09,568 [11] INFO  Pkurg.PWorld.Business.Permission.BFPmsUserRoleDepartment [(null)] - [method: get_IsInstanceAdmin], Message:GetDeptListByEmployeeCode
+2016-05-11 17:00:12,751 [21] DEBUG logger [(null)] - 2.1:00:00:00.0282325
+2016-05-11 17:00:12,783 [21] DEBUG logger [(null)] - 2.2:00:00:00.0303771
+2016-05-11 17:00:12,805 [21] INFO  Pkurg.PWorld.Business.Permission.BFPmsUserRoleDepartment [(null)] - [method: get_IsInstanceAdmin], Message:GetDeptListByEmployeeCode
+2016-05-11 17:00:18,350 [82] DEBUG logger [(null)] - 2.1:00:00:00.0263642
+2016-05-11 17:00:18,378 [82] DEBUG logger [(null)] - 2.2:00:00:00.0273416
+2016-05-11 17:00:20,080 [21] DEBUG logger [(null)] - 2.1:00:00:00.0286189
+2016-05-11 17:00:20,108 [21] DEBUG logger [(null)] - 2.2:00:00:00.0266820
+2016-05-11 17:00:21,153 [82] DEBUG logger [(null)] - 2.1:00:00:00.0260950
+2016-05-11 17:00:21,183 [82] DEBUG logger [(null)] - 2.2:00:00:00.0295000
+2016-05-11 17:00:22,399 [11] DEBUG logger [(null)] - 2.1:00:00:00.0307963
+2016-05-11 17:00:22,437 [11] DEBUG logger [(null)] - 2.2:00:00:00.0358689
+2016-05-11 17:00:25,578 [82] DEBUG logger [(null)] - 2.1:00:00:00.0315293
+2016-05-11 17:00:25,609 [82] DEBUG logger [(null)] - 2.2:00:00:00.0299543
+2016-05-11 17:00:30,823 [11] DEBUG logger [(null)] - 2.1:00:00:00.0268083
+2016-05-11 17:00:30,850 [11] DEBUG logger [(null)] - 2.2:00:00:00.0256593
+2016-05-11 17:00:37,144 [21] DEBUG logger [(null)] - 2.1:00:00:00.0243507
+2016-05-11 17:00:37,169 [21] DEBUG logger [(null)] - 2.2:00:00:00.0242493
+2016-05-11 17:00:39,040 [82] DEBUG logger [(null)] - 2.1:00:00:00.0247403
+2016-05-11 17:00:39,064 [82] DEBUG logger [(null)] - 2.2:00:00:00.0235506
+2016-05-11 17:00:43,143 [81] DEBUG logger [(null)] - 2.1:00:00:00.0306147
+2016-05-11 17:00:43,193 [81] DEBUG logger [(null)] - 2.2:00:00:00.0493568
+2016-05-11 17:01:40,628 [21] INFO  Pkurg.PWorld.Business.Permission.BFPmsUserRoleDepartment [(null)] - [method: get_IsInstanceAdmin], Message:GetDeptListByEmployeeCode
+2016-05-11 17:01:47,642 [11] DEBUG logger [(null)] - 2.1:00:00:00.0310240
+2016-05-11 17:01:47,671 [11] DEBUG logger [(null)] - 2.2:00:00:00.0286028
+2016-05-11 17:01:52,499 [11] DEBUG logger [(null)] - 2.1:00:00:00.0322729
+2016-05-11 17:01:52,531 [11] DEBUG logger [(null)] - 2.2:00:00:00.0309084
+2016-05-11 17:01:56,449 [81] DEBUG logger [(null)] - 2.1:00:00:00.0382937
+2016-05-11 17:01:56,479 [81] DEBUG logger [(null)] - 2.2:00:00:00.0287808
+2016-05-11 17:02:40,880 [81] DEBUG logger [(null)] - 2.1:00:00:00.4616955
+2016-05-11 17:02:40,997 [81] DEBUG logger [(null)] - 2.2:00:00:00.1158243
+2016-05-11 17:02:45,199 [11] DEBUG logger [(null)] - 2.1:00:00:00.1134453
+2016-05-11 17:02:45,310 [11] DEBUG logger [(null)] - 2.2:00:00:00.1096282
+2016-05-11 17:02:47,502 [57] DEBUG logger [(null)] - 2.1:00:00:00.0341799
+2016-05-11 17:02:47,548 [57] DEBUG logger [(null)] - 2.2:00:00:00.0414283
+2016-05-11 17:03:19,985 [78] DEBUG logger [(null)] - 2.1:00:00:00.0343271
+2016-05-11 17:03:20,021 [78] DEBUG logger [(null)] - 2.2:00:00:00.0349330
+2016-05-11 17:03:22,565 [57] DEBUG logger [(null)] - 2.1:00:00:00.0330075
+2016-05-11 17:03:22,598 [57] DEBUG logger [(null)] - 2.2:00:00:00.0315506
+2016-05-11 17:03:27,046 [57] DEBUG logger [(null)] - 2.1:00:00:00.0341882
+2016-05-11 17:03:27,080 [57] DEBUG logger [(null)] - 2.2:00:00:00.0328188
+2016-05-11 17:03:30,183 [11] DEBUG logger [(null)] - 2.1:00:00:00.0335515
+2016-05-11 17:03:30,214 [11] DEBUG logger [(null)] - 2.2:00:00:00.0305910
+2016-05-11 17:03:32,525 [57] DEBUG logger [(null)] - 2.1:00:00:00.0320665
+2016-05-11 17:03:32,555 [57] DEBUG logger [(null)] - 2.2:00:00:00.0286308
+2016-05-11 17:03:34,290 [11] DEBUG logger [(null)] - 2.1:00:00:00.0334437
+2016-05-11 17:03:34,319 [11] DEBUG logger [(null)] - 2.2:00:00:00.0283241
+2016-05-11 17:03:34,896 [57] DEBUG logger [(null)] - 2.1:00:00:00.0309526
+2016-05-11 17:03:34,927 [57] DEBUG logger [(null)] - 2.2:00:00:00.0302405
+2016-05-11 17:03:35,372 [78] DEBUG logger [(null)] - 2.1:00:00:00.0312680
+2016-05-11 17:03:35,401 [78] DEBUG logger [(null)] - 2.2:00:00:00.0278022
+2016-05-11 17:24:35,353 [82] DEBUG logger [(null)] - 2.1:00:00:00.0567816
+2016-05-11 17:24:35,386 [82] DEBUG logger [(null)] - 2.2:00:00:00.0329578
+2016-05-11 17:24:38,338 [18] DEBUG logger [(null)] - 2.1:00:00:00.0266153
+2016-05-11 17:24:38,374 [18] DEBUG logger [(null)] - 2.2:00:00:00.0351773
+2016-05-11 17:24:40,054 [82] DEBUG logger [(null)] - 2.1:00:00:00.0277146
+2016-05-11 17:24:40,080 [82] DEBUG logger [(null)] - 2.2:00:00:00.0255341
+2016-05-11 17:24:41,640 [82] DEBUG logger [(null)] - 2.1:00:00:00.0257579
+2016-05-11 17:24:41,665 [82] DEBUG logger [(null)] - 2.2:00:00:00.0246752
+2016-05-11 17:24:43,377 [21] DEBUG logger [(null)] - 2.1:00:00:00.0270290
+2016-05-11 17:24:43,408 [21] DEBUG logger [(null)] - 2.2:00:00:00.0298801
+2016-05-11 17:24:44,422 [21] DEBUG logger [(null)] - 2.1:00:00:00.0263773
+2016-05-11 17:24:44,449 [21] DEBUG logger [(null)] - 2.2:00:00:00.0257789
+2016-05-11 17:24:45,534 [18] DEBUG logger [(null)] - 2.1:00:00:00.0256186
+2016-05-11 17:24:45,561 [18] DEBUG logger [(null)] - 2.2:00:00:00.0260070
+2016-05-11 17:24:47,129 [18] DEBUG logger [(null)] - 2.1:00:00:00.0268758
+2016-05-11 17:24:47,157 [18] DEBUG logger [(null)] - 2.2:00:00:00.0271395
+2016-05-11 17:24:47,975 [21] DEBUG logger [(null)] - 2.1:00:00:00.0264807
+2016-05-11 17:24:48,003 [21] DEBUG logger [(null)] - 2.2:00:00:00.0270049
+2016-05-11 17:24:53,213 [21] DEBUG logger [(null)] - 2.1:00:00:00.0271679
+2016-05-11 17:24:53,241 [21] DEBUG logger [(null)] - 2.2:00:00:00.0271600
+2016-05-11 17:24:53,958 [82] DEBUG logger [(null)] - 2.1:00:00:00.0282771
+2016-05-11 17:24:53,985 [82] DEBUG logger [(null)] - 2.2:00:00:00.0254323
+2016-05-11 17:24:54,803 [62] DEBUG logger [(null)] - 2.1:00:00:00.0457091
+2016-05-11 17:24:54,842 [62] DEBUG logger [(null)] - 2.2:00:00:00.0359897
+2016-05-11 17:24:56,072 [21] DEBUG logger [(null)] - 2.1:00:00:00.0265431
+2016-05-11 17:24:56,099 [21] DEBUG logger [(null)] - 2.2:00:00:00.0258653
+2016-05-11 17:38:36,888 [66] DEBUG logger [(null)] - 1:00:00:00.2364181
+2016-05-11 17:38:37,774 [73] DEBUG logger [(null)] - 1:00:00:00.0396382
+2016-05-11 17:38:39,133 [66] DEBUG logger [(null)] - 1:00:00:00.0399812
+2016-05-11 17:38:39,989 [73] DEBUG logger [(null)] - 1:00:00:00.0395024
+2016-05-11 17:38:40,636 [73] DEBUG logger [(null)] - 1:00:00:00.0460541
+2016-05-11 17:38:41,352 [66] DEBUG logger [(null)] - 1:00:00:00.0393303

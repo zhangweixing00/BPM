@@ -1,0 +1,273 @@
+﻿*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    font-size: 12px;
+    color: #000;
+    background: #FFF;
+    font-family: Hei, san-serif;
+}
+a
+{
+    color: #000;
+    text-decoration: none;
+}
+img
+{
+    border: 0;
+    margin: 0px;
+    padding: 0px;
+}
+.input
+{
+    border: 1px solid #9a9a9a;
+    background: #fafafa;
+}
+
+.gemDiv
+{
+    height: 498px;
+    width: 459px;
+    margin: 0 auto;
+    background: #fcf8e5;
+}
+.rightgemDiv
+{
+     height: 498px;
+    margin: 0 auto;
+    float:left;
+    width:231px;
+    background: #fcf8e5;
+}
+.lib
+{
+    height: 35px;
+    border-bottom: 1px solid #f1d974;
+}
+.cemDiv
+{
+    height: 291px;
+    width: 429px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    overflow: hidden;
+    border: 1px solid #e5bb04;
+}
+.cemDivEmai
+{
+    height: 303px;
+    width: 429px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 1px solid #e5bb04;
+}
+
+.rightcemDivEmai
+{
+    height: 397px;
+    width: 200px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 6px;
+    border: 1px solid #e5bb04;
+    overflow-y: scroll;
+}
+
+.righttop
+{
+     border: 1px solid #e5bb04;
+     height: 22px;
+    width: 200px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 10px;
+    background: #fef5c7;
+}
+
+.righttop span
+{
+    top: 14px;
+    left: 457px;
+     margin-left: 15px;
+    margin-top: 5px;
+    position: absolute;
+    width: 65px;
+}
+.cemDivEmai1
+{
+    height: 112px;
+    width: 429px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 1px solid #e5bb04;
+}
+.cemDivEmai2
+{
+    height: 112px;
+    width: 429px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 1px solid #e5bb04;
+}
+
+.cemDiv ul
+{
+    list-style: none;
+}
+.hemDiv
+{
+    position: inherit;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #e5bb04;
+}
+.hemDiv .emth1
+{
+    width: 180px;
+    border-right: 1px solid #e5bb04;
+}
+.hemDiv table
+{
+    text-align: center;
+    width: 100%;
+}
+.emdataDiv
+{
+    height: 223px;
+    width: 100%;
+    overflow-y: scroll;
+    position: inherit;
+}
+.emdataDivgroup
+{
+    height: 210px;
+    width: 100%;
+    overflow-y: scroll;
+    position: inherit;
+}
+.emdataDivgroup .tablecs
+{
+      width: 100%;
+    text-align: center;
+    position:inherit;
+}
+.emdataDiv .tablecs
+{
+    width: 100%;
+    text-align: center;
+    position: inherit;
+}
+.emtd1
+{
+    width: 182px;
+    border-right: 1px solid #e5bb04;
+}
+
+.input_text_img
+{
+    margin-top: 0px;
+    cursor: pointer;
+}
+.inputemail_text
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    height: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 383px;
+}
+.lib_inputemail
+{
+    height: 23px;
+    width: 413px;
+    top: 6px;
+    left: 6px;
+    position: relative;
+    border: 1px solid #9a9a9a;
+}
+.emailcontent
+{
+    width: 99%;
+    height: 433px;
+    position:inherit;
+}
+.emailcontent ul
+{
+    list-style: none;
+}
+.emailcontent .lia
+{
+    height: 22px;
+    background: #fef5c7;
+    overflow: hidden;
+    border-bottom: 1px solid #f1d974;
+}
+
+.lia span
+{
+    margin-left: 15px;
+    margin-top: 5px;
+    position: absolute;
+    top: 13px;
+    left: 23px;
+}
+
+.emailcontent .lia1
+{
+    height: 22px;
+    background: #fef5c7;
+    overflow: hidden;
+    border-bottom: 1px solid #f1d974;
+}
+
+.lia1 span
+{
+    margin-left: 15px;
+    margin-top: 5px;
+    position: absolute;
+    top: 328px;
+    left: 23px;
+}
+.onlineemail
+{
+    width: 168px;
+    height: 21px;
+    top: 9px;
+    left: 208px;
+    position: relative;
+    clear: both;
+}
+.onlineInput
+{
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+    position: inherit;
+    height: 86px;
+}
+.onlneInputcs
+{
+    float: right;
+    border: 1px solid #f1d974;
+    background: #fcf8e5;
+    margin-top: 10px;
+    overflow-y: scroll;
+    height: 73px;
+    width: 352px;
+}
+
+.selectrow
+{
+    background: #fef5c7;
+}
+

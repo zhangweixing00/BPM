@@ -1,0 +1,765 @@
+﻿/*默认风格*/
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, img, dl, dt, dd, table, th, td, blockquote, fieldset, div, strong, label, em
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+div
+{
+    word-break: break-all;
+}
+
+ul, ol, li
+{
+}
+input, button
+{
+    margin: 0;
+    font-size: 12px;
+    vertical-align: middle;
+}
+TEXTAREA
+{
+    line-height: 22px;
+    font-size: 12px;
+}
+
+body
+{
+    font-size: 12px;
+    font-family: 宋体,Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+    color: #666666;
+}
+table
+{
+    text-align: left;
+}
+a
+{
+    blr: expression(this.onFocus=this.blur());
+}
+/*针对 IE*/
+a
+{
+    outline: none;
+}
+
+/*针对firefox等*/
+a
+{
+    color: #005EA7;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+/*列表样式*/
+
+.List
+{
+    width: 100%;
+}
+
+.List th, .List td
+{
+    border: 1px solid #eaeaea;
+    padding-top: 3px;
+    padding-left: 3px;
+    height: 25px;
+    line-height: 25px;
+}
+.List th
+{
+    /*   background-color: #DEEDF9;*/
+    font-weight: bold;
+    text-align: left;
+    background: #eaeaea;
+}
+
+.List .Alternating td
+{
+    background-color: #F7FBFF;
+}
+
+.List A:link
+{
+    height: 19px;
+    text-decoration: none;
+}
+.List A:visited
+{
+    height: 19px;
+    text-decoration: none;
+}
+.List A:hover
+{
+    height: 19px;
+    text-decoration: underline;
+}
+.List A:active
+{
+    height: 19px;
+    text-decoration: none;
+    color: #4B4B4B;
+}
+
+/*表单样式*/
+.container
+{
+    border-top: 1px solid #eaeaea;
+    margin-bottom: 5px;
+}
+
+.container table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.titlebg
+{
+    background: #eaeaea;
+    height: 27px;
+    margin-bottom: 1px;
+}
+.title
+{
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 5px;
+    display: inline;
+    float: left;
+    padding-left: 5px;
+    line-height: 20px;
+    height: 20px;
+}
+.new
+{
+    float: right;
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    padding-right: 10px;
+    padding-top: 4px;
+}
+.new A
+{
+    color: Green;
+}
+.content
+{
+    text-align: left;
+}
+
+/*FormTable*/
+.FormTable
+{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.FormTable td
+{
+    color: #000;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #eaeaea;
+    padding: 1px 5px;
+}
+.FormTable th
+{
+    padding-left: 0px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    color: #999;
+    padding-top: 2px;
+    height: 27px;
+    text-align: right;
+    border: 1px solid #eaeaea; /* background-color: #f4f9fe;*/
+    width: 140px;
+}
+.autoTh th
+{
+    width: auto;
+}
+.txt
+{
+    border-right: #999999 1px solid;
+    padding-right: 0px;
+    border-top: #999999 1px solid;
+    padding-left: 6px;
+    padding-bottom: 2px;
+    vertical-align: middle;
+    border-left: #999999 1px solid;
+    width: 250px;
+    padding-top: 4px;
+    border-bottom: #999999 1px solid;
+    font-family: Verdana, "Courier New" , "宋体";
+    height: 16px;
+    background: white;
+}
+.longtxt
+{
+    border-right: #999999 1px solid;
+    padding-right: 0px;
+    border-top: #999999 1px solid;
+    padding-left: 6px;
+    padding-bottom: 2px;
+    vertical-align: middle;
+    border-left: #999999 1px solid;
+    width: 580px;
+    padding-top: 4px;
+    border-bottom: #999999 1px solid;
+    font-family: Verdana, "Courier New" , "宋体";
+    height: 16px;
+    background: white;
+}
+.heighttxt
+{
+    border-right: #999999 1px solid;
+    padding-right: 0px;
+    border-top: #999999 1px solid;
+    padding-left: 6px;
+    padding-bottom: 2px;
+    vertical-align: middle;
+    border-left: #999999 1px solid;
+    width: 580px;
+    padding-top: 4px;
+    border-bottom: #999999 1px solid;
+    font-family: Verdana, "Courier New" , "宋体";
+    height: 106px;
+    background: white;
+}
+.shorttxt
+{
+    border-right: #999999 1px solid;
+    padding-right: 0px;
+    border-top: #999999 1px solid;
+    padding-left: 6px;
+    background: url(../images/input.gif) #ffffff no-repeat 0px 0px;
+    padding-bottom: 2px;
+    vertical-align: middle;
+    border-left: #999999 1px solid;
+    width: 50px;
+    padding-top: 4px;
+    border-bottom: #999999 1px solid;
+    font-family: Verdana, "Courier New" , "宋体";
+    height: 16px;
+    background: white;
+}
+.txtshort
+{
+    border-right: #999999 1px solid;
+    padding-right: 0px;
+    border-top: #999999 1px solid;
+    padding-left: 6px;
+    background: url(../images/input.gif) #ffffff no-repeat 0px 0px;
+    padding-bottom: 2px;
+    vertical-align: middle;
+    border-left: #999999 1px solid;
+    width: 100px;
+    padding-top: 4px;
+    border-bottom: #999999 1px solid;
+    font-family: Verdana, "Courier New" , "宋体";
+    height: 16px;
+    background: white;
+}
+
+.green_btn
+{
+    background: #67A00D;
+    border-color: #67A00D;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    height: 25px;
+    width: 80px;
+    color: White;
+}
+.gray_btn
+{
+    background: gray;
+    border-color: gray;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    height: 25px;
+    width: 80px;
+    color: White;
+}
+.green_btn2
+{
+    background: #67A00D;
+    border-color: #67A00D;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    height: 25px;
+    width: 50px;
+    color: White;
+}
+.gray_btn2
+{
+    background: gray;
+    border-color: gray;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    height: 25px;
+    width: 50px;
+    color: White;
+}
+.star
+{
+    color: Red;
+}
+
+.green
+{
+    color: Green;
+}
+
+.red
+{
+    color: Red;
+}
+
+.FormTable .star
+{
+    font-weight: normal;
+}
+
+/*AspNetPager*/
+
+.anpager
+{
+    margin: 8px;
+    text-align: center;
+}
+.anpager .cpb
+{
+    background: #1F3A87 none repeat scroll 0 0;
+    border: 1px solid #CCCCCC;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 5px 4px 0 0;
+    padding: 4px 5px 0;
+}
+.anpager a
+{
+    background: #FFFFFF none repeat scroll 0 0;
+    border: 1px solid #CCCCCC;
+    color: #1F3A87;
+    margin: 5px 4px 0 0;
+    padding: 4px 5px 0;
+    text-decoration: none;
+}
+.anpager a:hover
+{
+    background: #1F3A87 none repeat scroll 0 0;
+    border: 1px solid #1F3A87;
+    color: #FFFFFF;
+}
+.anpager span
+{
+    background: #1F3A87 none repeat scroll 0 0;
+    border: 1px solid #CCCCCC;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 5px 4px 0 0;
+    padding: 4px 5px 0;
+}
+.anpager td
+{
+    text-align: center;
+}
+.anpager table td
+{
+    border: 0px;
+}
+/*日期控件修正 (table最外头必须有div)*/
+div .ajax__calendar td
+{
+    padding: 0px;
+    border: none;
+    font-size: 11px;
+    line-height: 18px;
+    height: 18px;
+    margin: 0px;
+}
+
+/*左侧菜单样式*/
+
+#menu
+{
+    margin-bottom: 5px;
+}
+
+/*dl,dt,dd*/
+#menu dl dt
+{
+    background: #eaeaea;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    padding: 2px 12px 0;
+    text-align: left;
+}
+
+#menu dd
+{
+    border: 1px solid #eaeaea;
+}
+
+#menu dd .item
+{
+    text-align: left;
+    padding: 8px 0px 0px 24px;
+    height: 20px;
+}
+#menu dd .curr
+{
+    /*background-color: #3399FF;*/ /* font-weight: bold;*/
+}
+#menu dd .curr a
+{
+    color: Green;
+    font-weight: bold;
+}
+#goTopBtn
+{
+    position: fixed;
+    line-height: 36px;
+    width: 38px;
+    bottom: 10px;
+    height: 38px;
+    cursor: pointer;
+    display: none;
+    background: url('../images/back_to_top.gif');
+    background-repeat: no-repeat;
+}
+
+/*流程表单样式*/
+.wf_page
+{
+    margin: 5px;
+}
+.wf_header
+{
+    padding: 0px 5px;
+    height: 65px;
+    border-bottom: 2px solid #d80c18;
+}
+.wf_title
+{
+    float: left;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 35px;
+    margin-top: 25px;
+    font-family: 微软雅黑;
+    margin-bottom: 10px;
+}
+.wf_buttons
+{
+    padding-top: 5px;
+    height: 20px;
+    text-align: right;
+    float: right;
+    padding-right: 8px;
+    padding-top: 43px;
+}
+.wf_center
+{
+    margin: 0 auto;
+    text-align: center;
+    width: 780px;
+    clear: both;
+}
+
+.wf_form
+{
+    margin-top: 5px; /*border: 1px solid #c0c0c0;*/
+}
+.wf_form_title
+{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    margin: 30px 0px 20px;
+}
+.wf_form_title_en
+{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    margin: 0px 0px 20px;
+}
+
+.wf_table
+{
+    width: 100%;
+    margin: 10px 0px;
+    background-color: #ccc;
+}
+
+.wf_table th
+{
+    padding-left: 0px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    color: #000;
+    background: #e6e6e8;
+    padding-top: 2px;
+    height: 30px;
+    text-align: right;
+    border: 1px solid #eaeaea;
+    width: 150px;
+}
+
+.wf_table td
+{
+    color: #000;
+    background: #f1f4f9;
+    height: 30px;
+    line-height: 27px;
+    border: 1px solid #eaeaeb;
+    padding: 1px 5px;
+}
+
+.wf_table2
+{
+    width: 100%;
+    margin: 10px 0px;
+    background-color: #ccc;
+}
+
+.wf_table2 th
+{
+    padding-left: 0px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    color: #000;
+    background: #e6e6e8;
+    padding-top: 2px;
+    height: 30px;
+    text-align: right;
+    border: 1px solid #eaeaea;
+    width: 120px;
+}
+
+.wf_table2 td
+{
+    color: #000;
+    background: #f1f4f9;
+    height: 30px;
+    line-height: 27px;
+    border: 1px solid #eaeaeb;
+    padding: 1px 5px;
+}
+.wf_fieldset
+{
+    margin: 10px 0px;
+    border: 1px solid #d5dfe5;
+    padding: 5px;
+}
+.wf_fieldset th
+{
+    line-height: 18px;
+    margin-right:5px;
+}
+
+.wf_legend
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.noBorder td, th
+{
+    border: 0px;
+}
+
+/*固定按钮样式*/
+#scroll
+{
+    clear: both;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 120px;
+    height: auto;
+    z-index: 999;
+    border: 3px solid #d90b18;
+    font-size: 13px;
+}
+#scroll a.back-to-top
+{
+    background-position: left top;
+}
+#scroll a.back-to-top:hover
+{
+    background-position: right top;
+}
+#scroll_title
+{
+    padding: 5px;
+    background: #d80c18;
+    font-size: 14px;
+    color: White;
+    font-weight: bold;
+}
+#scroll_button
+{
+    padding: 5px;
+    background-color: #f7f7ff;
+}
+#scroll_button input
+{
+    margin-bottom: 5px;
+}
+.scroll_ul li
+{
+    height: 20px;
+    line-height: 20px;
+    list-style-type: none;
+    padding: 5px;
+    list-style-image: url('../images/li_bg.gif');
+    width: 75px;
+    margin-left: 25px;
+    text-align: left;
+}
+.scroll_ul li a
+{
+    color: black;
+    display: block;
+    text-decoration: none;
+    height: 40px;
+}
+.scroll_ul li a:hover
+{
+    font-weight: bold;
+}
+
+/*End by yanghechun*/
+
+.rightContent
+{
+}
+.rightcontentheader
+{
+    background: #eaeaea;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    padding: 2px 12px 0;
+    text-align: left;
+}
+.OptionItem
+{
+    width: 100%;
+    padding: 5px;
+    text-indent: 2em;
+}
+.OptionItem div
+{
+    margin-right: 10px;
+    text-align: right;
+}
+
+.selectOrderInfo
+{
+    background: none repeat scroll 0 0 #fff4be;
+    border: 1px solid #cccccc;
+    color: #e66e1e;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    padding: 0 10px;
+    margin: 5px 0;
+    text-align: left;
+    font-weight: bold;
+}
+.txts
+{
+    border-right: #999999 1px solid;
+    padding-right: 0px;
+    border-top: #999999 1px solid;
+    padding-left: 6px;
+    padding-bottom: 2px;
+    vertical-align: middle;
+    border-left: #999999 1px solid;
+    width: 500px;
+    padding-top: 4px;
+    border-bottom: #999999 1px solid;
+    font-family: Verdana, "Courier New" , "宋体";
+    height: 16px;
+}
+.edit
+{
+    background-color: rgb(255, 255, 204) !important;
+}
+.disable
+{
+    color: gray;
+    text-decoration: none;
+}
+.ShowName td
+{
+    border-width: 0px !important;
+}
+
+.SFormTable
+{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.SFormTable td
+{
+    color: #000;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #eaeaea;
+    padding: 1px 5px;
+}
+.SFormTable th
+{
+    padding-left: 0px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    color: #999;
+    padding-top: 2px;
+    height: 27px;
+    text-align: center;
+    border: 1px solid #eaeaea; /* background-color: #f4f9fe;*/
+    width: 140px;
+}
+.tabActive
+{
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    background-color: #EAEAEA;
+    border-width: 0px;
+}
+.tabUnActive
+{
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    background: #C0C0C0;
+    border-width: 0px;
+}
+/*End*/

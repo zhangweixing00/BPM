@@ -1,0 +1,165 @@
+﻿/** itemdetail style **/
+#itemdetail .toolbar{ position:absolute; right:30px; top:30px; }
+#itemdetail .toolbar ul{padding:0px 0px; }
+#itemdetail .toolbar li{display:inline;}
+#itemdetail .toolbar a{height:21px; line-height:21px; padding:0px 0px 0px 3px;text-decoration:none;margin-right:5px}
+#itemdetail .toolbar a span img{ border:0px; margin-bottom:-4px; margin-right:5px;}
+/* Add By 2011/7/19*/
+#itemdetail .toolbar a span {height:21px; line-height:21px; display:inline-block; color:#000; padding:0px 5px 0px 2px;text-align:center; cursor:hand;white-space:nowrap; WORD-BREAK: keep-all;}
+#itemdetail .toolbar a:hover {background-position:0% -21px;}
+#itemdetail .toolbar a:hover span {background-position:100% -21px;color:#000;}
+
+.idt_tab{ background-color:#E7E7EF; border:1px solid #ADAAAD;}
+.idt_tab td{ padding:0px 5px; height:25px; line-height:25px; vertical-align:middle;}
+.idt_tab img{ border:0px; margin-bottom:-3px; margin-right:2px;}
+.idt_item{padding:5px;}
+.td_l
+{
+    background:#e6e6e8;padding-right:5px;
+    text-align:right;
+    height:34px;line-height:34px;
+    width:120px;
+    font-weight:bold;
+}
+.td_lcust
+{
+    background:#e6e6e8;padding-right:5px;
+    text-align:right;
+    height:34px;line-height:34px;
+    font-weight:bold;
+}
+.td_r
+{
+    background:#f1f4f9;padding-left:5px;
+    text-align:left;
+    height:34px;line-height:34px;
+}
+.th_th
+{
+    background:#e6e6e8;padding-right:5px;
+    text-align:center;
+    height:34px;line-height:34px;
+    font-weight:bold;
+}
+.th_td
+{
+    background:#f1f4f9;padding-left:5px;
+    text-align:left;
+    height:34px;line-height:34px;
+}
+.com_fieldset
+{
+    border:1px solid #a8a8a8;
+    margin:0px 0px;
+    padding:10px;
+}
+.com_legend
+{
+    font-family:宋体;
+    font-size:14px;
+    font-weight:bold;
+    color:#000;
+    margin:5px;
+}
+.cominput{font-size:9pt; margin:0px 2px; border:1px solid #759FB9; }
+
+
+.q_menu
+{
+	width: 135px;
+	height: 229px;
+	filter: ALPHA(opacity=135,finishopacity=135,style=0);
+	right: 2px;
+	float: right;
+	position: absolute;
+	top: 380px;
+}
+ .q_menu_r a
+            {
+                display:block; height:0px;
+               
+            }
+.q_menu_o
+{
+	background-color: #DAE8F1;
+	cursor: pointer;
+	height: 30px;
+}
+.q_menu_f
+{
+	border: 0px solid red;
+	cursor: pointer;
+	height: 30px;
+}
+.q_menu_i
+{
+	width: 25px;
+	text-align: left;
+	padding-left: 3px;
+	height: 30px;
+}
+.q_menu_r
+{
+	
+	text-align: left;
+
+	height: 30px;
+}
+.q_menu_top
+{
+	background: url(q_menu_top.gif) no-repeat left top;
+	height: 44px;
+	width: 127px;
+}
+.q_menu_m
+{
+	background: url(q_menu_m.gif) repeat-y left top;
+	width: 127px;
+}
+
+.q_menu_bottom
+{
+	background: url(q_menu_bottom.gif) no-repeat left top;
+	width: 127px;
+	height:18px;
+}
+input.cssNumberNewWF /*数字文本框 单独采购流程明细控件保存前*/
+{
+    font-size: 9pt;
+    height: 21px;
+    text-align: right;
+    width: 75px;
+    ime-mode: disabled;
+    behavior: url(../../default/htc/CurrencyTextBox.htc);
+}
+input.cssNumberNewWFAfterSave /*数字文本框 单独采购流程明细控件保存后*/
+{
+    border: 1px solid #759FB9;
+    font-size: 9pt;
+    height: 20px;
+    text-align: right;
+    color: #333;
+    width: 75px;
+    ime-mode: disabled;
+    behavior: url(../../default/htc/CurrencyTextBox.htc);
+}
+input.cssNumberFormat /*数字文本框 单独采购流程明细控件保存后*/
+{
+    font-size: 9pt;
+    height: 21px;
+    text-align: right;
+    width: 58px;
+    ime-mode: disabled;
+    behavior: url(../../default/htc/CurrencyNumber.htc);
+}
+input.cssNumberFormatAfterSave /*数字文本框 单独采购流程明细控件保存后*/
+{
+    border: 1px solid #759FB9;
+    font-size: 9pt;
+    height: 20px;
+    text-align: right;
+    color: #333;
+    width: 57px;
+    ime-mode: disabled;
+    behavior: url(../../default/htc/CurrencyNumber.htc);
+}

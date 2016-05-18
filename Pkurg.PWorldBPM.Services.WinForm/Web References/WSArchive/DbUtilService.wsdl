@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc12="http://www.w3.org/2003/05/soap-encoding" xmlns:soapenc11="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope" xmlns:tns="thamsspace" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap11="http://schemas.xmlsoap.org/soap/envelope/" targetNamespace="thamsspace" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="thamsspace">
+      <xsd:element name="deleteField">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="xmlFileName" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="did" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="deleteFieldResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getBMIDByADUserName">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getBMIDByADUserNameResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="modifyField">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="xmlFileName" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="fieldValues" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="modifyFieldResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="addField">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="xmlFileName" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="fieldValues" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="addFieldResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="modifyFieldResponse">
+    <wsdl:part name="parameters" element="tns:modifyFieldResponse" />
+  </wsdl:message>
+  <wsdl:message name="modifyFieldRequest">
+    <wsdl:part name="parameters" element="tns:modifyField" />
+  </wsdl:message>
+  <wsdl:message name="addFieldResponse">
+    <wsdl:part name="parameters" element="tns:addFieldResponse" />
+  </wsdl:message>
+  <wsdl:message name="addFieldRequest">
+    <wsdl:part name="parameters" element="tns:addField" />
+  </wsdl:message>
+  <wsdl:message name="getBMIDByADUserNameResponse">
+    <wsdl:part name="parameters" element="tns:getBMIDByADUserNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="getBMIDByADUserNameRequest">
+    <wsdl:part name="parameters" element="tns:getBMIDByADUserName" />
+  </wsdl:message>
+  <wsdl:message name="deleteFieldRequest">
+    <wsdl:part name="parameters" element="tns:deleteField" />
+  </wsdl:message>
+  <wsdl:message name="deleteFieldResponse">
+    <wsdl:part name="parameters" element="tns:deleteFieldResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DbUtilServicePortType">
+    <wsdl:operation name="deleteField">
+      <wsdl:input name="deleteFieldRequest" message="tns:deleteFieldRequest" />
+      <wsdl:output name="deleteFieldResponse" message="tns:deleteFieldResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getBMIDByADUserName">
+      <wsdl:input name="getBMIDByADUserNameRequest" message="tns:getBMIDByADUserNameRequest" />
+      <wsdl:output name="getBMIDByADUserNameResponse" message="tns:getBMIDByADUserNameResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="modifyField">
+      <wsdl:input name="modifyFieldRequest" message="tns:modifyFieldRequest" />
+      <wsdl:output name="modifyFieldResponse" message="tns:modifyFieldResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addField">
+      <wsdl:input name="addFieldRequest" message="tns:addFieldRequest" />
+      <wsdl:output name="addFieldResponse" message="tns:addFieldResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DbUtilServiceHttpBinding" type="tns:DbUtilServicePortType">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="deleteField">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="deleteFieldRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="deleteFieldResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getBMIDByADUserName">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="getBMIDByADUserNameRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getBMIDByADUserNameResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="modifyField">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="modifyFieldRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="modifyFieldResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addField">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="addFieldRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="addFieldResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DbUtilService">
+    <wsdl:port name="DbUtilServiceHttpPort" binding="tns:DbUtilServiceHttpBinding">
+      <wsdlsoap:address location="http://172.25.20.13/LamsDBConvert/services/DbUtilService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:db="http://xmlns.oracle.com/apps/cux/soaprovider/plsql/cux_cost_report_appr_util_pkg/cux_appr_result/" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/apps/cux/soaprovider/plsql/cux_cost_report_appr_util_pkg/cux_appr_result/" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="InputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="1" db:type="VARCHAR2" minOccurs="0" name="P_COST_REPORT_ID" nillable="true" type="string" />
+        <element db:index="2" db:type="VARCHAR2" minOccurs="0" name="P_APPR_RESULT" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+</schema>

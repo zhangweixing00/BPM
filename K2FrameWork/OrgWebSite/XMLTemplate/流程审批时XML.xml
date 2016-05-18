@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Approvals>
+  <Originator Email="administrator@sohu-inc.com" Tel="111111111111">BJ4831</Originator>
+  <Approval state="complete" name="审批节点" step="" meetState="Y">
+    <Destinations UserNames="唐毅" DeptNames="微博.技术组" DeptCodes="70.129" Email="administrator@sohu-inc.com" Tel="111111111111" Gone="Y/N">BJ4831</Destinations>
+    <Destinations UserNames="唐毅" DeptNames="微博.技术组" DeptCodes="70.129" Email="administrator@sohu-inc.com" Tel="111111111111" Gone="Y/N">BJ4831</Destinations>
+  </Approval>
+  <Approval state="current" name="审批节点" step="" meetState="N" nodeType="User">
+    <Destinations UserNames="唐毅" DeptNames="微博.技术组" DeptCodes="70.129" Email="administrator@sohu-inc.com" Tel="111111111111" Gone="Y/N">BJ4831</Destinations>
+  </Approval>
+  <Approval state="wait" name="审批节点" step="" meetState="N" nodeType="Solid" RoleCode="XXX" RoleName="XXX">
+    <Destinations UserNames="唐毅" DeptNames="微博.技术组" DeptCodes="70.129" Email="administrator@sohu-inc.com" Tel="111111111111" Gone="Y/N">BJ4831</Destinations>
+  </Approval>
+  <Approval state="wait" name="审批节点" step="" meetState="N" nodeType="Role" RoleCode="XXX" RoleName="XXX">
+    <Destinations UserNames="唐毅" DeptNames="微博.技术组" DeptCodes="70.129" Email="administrator@sohu-inc.com" Tel="111111111111" Gone="Y/N">BJ4831</Destinations>
+  </Approval>
+</Approvals>

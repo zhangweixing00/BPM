@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BPM" Class="WorkFlowRuleDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=172.25.20.47;Initial Catalog=BPM;User ID=sa" SettingsObjectName="Pkurg.PWorldBPM.WorkFlowRule.Properties.Settings" SettingsPropertyName="BPMConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.WR_Setting" Member="WR_Setting">
+    <Type Name="WR_Setting">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Category" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Record_Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WR_Attachment" Member="WR_Attachment">
+    <Type Name="WR_Attachment">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Attachment_GUID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="Rule_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FileName" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="FileSize" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FilePath" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="Created_By" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Created_By_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Created_On" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Record_Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="WR_Rule_WR_Attachment" Member="WR_Rule" ThisKey="Rule_ID" OtherKey="ID" Type="WR_Rule" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WR_Category" Member="WR_Category">
+    <Type Name="WR_Category">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Category_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Category_Admin" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Record_Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="WR_Category_WR_Rule" Member="WR_Rule" ThisKey="ID" OtherKey="Category_ID" Type="WR_Rule" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WR_Focus" Member="WR_Focus">
+    <Type Name="WR_Focus">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Focus_ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="Rule_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Created_By" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Created_By_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Created_On" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Record_Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="WR_Rule_WR_Focus" Member="WR_Rule" ThisKey="Rule_ID" OtherKey="ID" Type="WR_Rule" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WR_Rule" Member="WR_Rule">
+    <Type Name="WR_Rule">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Rule_GUID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="Category_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Publish_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="Summary" Type="System.String" DbType="NVarChar(4000) NOT NULL" CanBeNull="false" />
+      <Column Name="Created_By" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Created_By_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Created_On" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Modified_By" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Modified_By_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Modified_On" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Record_Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="WR_Rule_WR_Attachment" Member="WR_Attachment" ThisKey="ID" OtherKey="Rule_ID" Type="WR_Attachment" />
+      <Association Name="WR_Rule_WR_Focus" Member="WR_Focus" ThisKey="ID" OtherKey="Rule_ID" Type="WR_Focus" />
+      <Association Name="WR_Category_WR_Rule" Member="WR_Category" ThisKey="Category_ID" OtherKey="ID" Type="WR_Category" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_WR_Rule" Member="V_WR_Rule">
+    <Type Name="V_WR_Rule">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Rule_GUID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="Category_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="Summary" Type="System.String" DbType="NVarChar(4000) NOT NULL" CanBeNull="false" />
+      <Column Name="Created_By" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Created_By_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Created_On" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Modified_By" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Modified_By_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Modified_On" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Record_Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Category_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Category_Admin" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Publish_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_WR_RuleFocus" Member="V_WR_RuleFocus">
+    <Type Name="V_WR_RuleFocus">
+      <Column Name="ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Rule_GUID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Category_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Summary" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="Created_By" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Created_By_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Created_On" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Modified_By" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Modified_By_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Modified_On" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Record_Status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Category_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Category_Admin" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Publish_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Focus_By" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Focus_By_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WR_Permission" Member="WR_Permission">
+    <Type Name="WR_Permission">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Flow_Names" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Flow_Ids" Type="System.String" DbType="NVarChar(2000) NOT NULL" CanBeNull="false" />
+      <Column Name="Allow_Depts" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="Allow_Users" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="Reject_Depts" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="Reject_Users" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="Record_Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

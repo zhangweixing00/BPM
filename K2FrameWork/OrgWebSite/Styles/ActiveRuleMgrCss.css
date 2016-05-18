@@ -1,0 +1,48 @@
+﻿ body
+ {
+      font-size:12px;
+ }
+ table
+ {
+     width: 100%;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	color: #776408;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 15px;
+ }
+ table tr
+ {
+      line-height:2.5em;
+ }
+ .style1
+ {
+      text-align: left;
+ } 
+ .style2
+  {
+       text-align: right;
+  }
+ #userruletitle
+ {
+      width:100%;
+      height:1em;
+      margin: 10px auto auto 20px;
+      padding:8px;
+      color: #776408;
+      float:left;
+      font-weight:bold;
+      background:url(../pic/right_list_title_bg2.png) no-repeat;
+  }
+ #T_UserRuleDiv
+ {
+     margin:10px auto auto 20px;
+ }
+        
+ #ActivityPageID
+ {
+       width: 148px;
+       height: 20px;
+  }

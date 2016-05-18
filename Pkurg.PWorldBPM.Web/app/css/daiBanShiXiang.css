@@ -1,0 +1,66 @@
+.daiBanShiXiang{}
+
+.daiBanShiXiang .qingShiDan_title{color:#57607c;}
+.daiBanShiXiang .qingShiDan_content h3{ background:#e5e9f5; font-weight:normal;}
+
+.daiBanShiXiang table{ background:#FFF; border-collapse:collapse;}
+.daiBanShiXiang table td{ vertical-align:top; border:1px solid #f0f4fb;color:#57607c;word-break:break-all;}
+.daiBanShiXiang span.daiBanShiXiang_icon1 ,.daiBanShiXiang span.daiBanShiXiang_icon2 ,.daiBanShiXiang span.daiBanShiXiang_icon3 ,.daiBanShiXiang span.daiBanShiXiang_icon4{ display:inline-block; vertical-align:top;}
+.daiBanShiXiang span.daiBanShiXiang_icon1{ background:url(images/daiBanShiXiang_icon1.png) no-repeat;}
+.daiBanShiXiang span.daiBanShiXiang_icon2{ background:url(images/daiBanShiXiang_icon2.png) no-repeat;}
+.daiBanShiXiang span.daiBanShiXiang_icon3{ background:url(images/daiBanShiXiang_icon3.png) no-repeat;}
+.daiBanShiXiang span.daiBanShiXiang_icon4{ background:url(images/daiBanShiXiang_icon4.png) no-repeat;}
+
+.daiBanShiXiang a.chaKanXiangQing{ display:block; background:#43c0dd; color:#FFF; text-align:center; -webkit-border-radius:5px;
+-webkit-box-shadow:0px 2px #39a3bc;}
+.daiBanShiXiang span.daiBanShiXiang_search{ display:inline-block; vertical-align:top; background:url(images/daiBanShiXiang_search.png) no-repeat center;}
+.daiBanShiXiang .shenPiLiuCheng_title{color:#57607c;}
+
+.daiBanShiXiang .sCWrap_title{color:#151515; background:url(images/daiBanShiXiang_dist.png) no-repeat 0px center;}
+.daiBanShiXiang .sCWrap_title.active{ color:#43c0dd; background:url(images/daiBanShiXiang_dist1.png) no-repeat 0px center;}
+.daiBanShiXiang .sCWrap_content{ background:#FFF; -webkit-border-radius:5px;}
+.daiBanShiXiang .sCWrap_content p.p1{color:#57607c;}
+.daiBanShiXiang .sCWrap_content p.p2{text-align:right;}
+.daiBanShiXiang .sCWrap_content span.name{color:#151515;}
+.daiBanShiXiang .sCWrap_content span.dateTime{color:#8895b4;}
+
+.daiBanShiXiang .sCWrap_dis{ display:none;}
+
+.daiBanShiXiang .sCWrap_content1 textarea{ width:100%; padding:0px; border:1px solid #43c0dd; resize:none;
+-webkit-border-radius:5px; -webkit-box-sizing:border-box;}
+
+.daiBanShiXiang .sCWrapContent1_btns{ display:-webkit-box;}
+.daiBanShiXiang .sCWrapContent1_btns span{display:-webkit-box; -webkit-box-flex:1;}
+.daiBanShiXiang .sCWrapContent1_btns a{ width:100%; display:block; background:#43c0dd; color:#FFF; text-align:center; -webkit-border-radius:5px;}
+.daiBanShiXiang .sCWrapContent1_btns a.disabled{ background:#CCC;}
+
+
+
+
+
+
+.daiBanShiXiang .qingShiDan_title{ padding:8px 20px;}
+.daiBanShiXiang .qingShiDan_content h3{ padding:8px 20px; font-size:14px;}
+
+.daiBanShiXiang table td{ line-height:21px; padding:5px 20px;}
+.daiBanShiXiang span.daiBanShiXiang_icon1 ,.daiBanShiXiang span.daiBanShiXiang_icon2 ,.daiBanShiXiang span.daiBanShiXiang_icon3 ,.daiBanShiXiang span.daiBanShiXiang_icon4{ width:21px; height:21px; background-size:21px; margin-right:5px;}
+.daiBanShiXiang .chaKanXiangQing_wrap{ padding:10px 20px;}
+.daiBanShiXiang a.chaKanXiangQing{ line-height:20px; padding-top:5px; padding-bottom:5px;}
+.daiBanShiXiang span.daiBanShiXiang_search{ width:20px; height:20px; background-size:16px; margin-right:5px;}
+
+.daiBanShiXiang .shenPiLiuCheng{ padding:10px 20px;}
+.daiBanShiXiang .shenPiLiuCheng_title{ padding-top:8px; padding-bottom:8px; font-weight:bold;  font-size:15px;}
+.daiBanShiXiang .sCWrap{ padding-bottom:5px;}
+.daiBanShiXiang .sCWrap_title{ padding-top:8px; padding-bottom:8px; padding-left:15px; background-size:8px;}
+.daiBanShiXiang .sCWrap_title.active{background-size:8px;}
+.daiBanShiXiang .sCWrap_content{ padding:10px;}
+.daiBanShiXiang .sCWrap_content p{ line-height:21px;}
+.daiBanShiXiang .sCWrap_content p.p1{}
+.daiBanShiXiang .sCWrap_content span.name{ padding-right:5px;}
+.daiBanShiXiang .sCWrap_content span.dateTime{}
+.daiBanShiXiang .sCWrap_content1 textarea{ height:60px; padding:10px;}
+
+.daiBanShiXiang .sCWrapContent1_btns{ padding-top:10px;}
+.daiBanShiXiang .sCWrapContent1_btns span:first-of-type{ padding-right:5px;}
+.daiBanShiXiang .sCWrapContent1_btns span:last-of-type{ padding-left:5px;}
+.daiBanShiXiang .sCWrapContent1_btns a{ line-height:35px;}

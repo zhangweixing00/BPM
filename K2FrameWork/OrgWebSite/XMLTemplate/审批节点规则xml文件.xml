@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Rule>
+  <Group Name="CDF">
+    <RuleTable OrderNo="1">
+      <Node>
+        <RequestNodeID>30E321B8-9C9A-4E1C-98B5-8665FDAF2892</RequestNodeID>
+        <ProcessNodeID>2B66B6F9-C8BC-4D14-8893-F08982C0C69B</ProcessNodeID>
+        <IsApprove>False</IsApprove>
+      </Node>
+      <Node>
+        <RequestNodeID>30E321B8-9C9A-4E1C-98B5-8665FDAF2892</RequestNodeID>
+        <ProcessNodeID>7FF34257-9F54-43BA-8823-4BFF8CB04B69</ProcessNodeID>
+        <IsApprove>False</IsApprove>
+      </Node>
+      <Node>
+        <RequestNodeID>30E321B8-9C9A-4E1C-98B5-8665FDAF2892</RequestNodeID>
+        <ProcessNodeID>76DA275D-7C47-40FE-8D26-5FC4F7573A2B</ProcessNodeID>
+        <IsApprove>True</IsApprove>
+      </Node>
+      <Node>
+        <RequestNodeID>30E321B8-9C9A-4E1C-98B5-8665FDAF2892</RequestNodeID>
+        <ProcessNodeID>04A3596E-9588-4756-A916-D15D47005756</ProcessNodeID>
+        <IsApprove>False</IsApprove>
+      </Node>
+      <Node>
+        <RequestNodeID>30E321B8-9C9A-4E1C-98B5-8665FDAF2892</RequestNodeID>
+        <ProcessNodeID>EFBD8DE3-9169-45EB-A4A9-7E99C27DC1D6</ProcessNodeID>
+        <IsApprove>False</IsApprove>
+      </Node>
+    </RuleTable>
+    <RuleTable OrderNo="2">
+      <Node>
+        <RequestNodeID>30E321B8-9C9A-4E1C-98B5-8665FDAF2892</RequestNodeID>
+        <ProcessNodeID>2B66B6F9-C8BC-4D14-8893-F08982C0C69B</ProcessNodeID>
+        <IsApprove>True</IsApprove>
+      </Node>
+      <Node>
+        <RequestNodeID>30E321B8-9C9A-4E1C-98B5-8665FDAF2892</RequestNodeID>
+        <ProcessNodeID>EFBD8DE3-9169-45EB-A4A9-7E99C27DC1D6</ProcessNodeID>
+        <IsApprove>False</IsApprove>
+      </Node>
+      <Node>
+        <RequestNodeID>30E321B8-9C9A-4E1C-98B5-8665FDAF2892</RequestNodeID>
+        <ProcessNodeID>76DA275D-7C47-40FE-8D26-5FC4F7573A2B</ProcessNodeID>
+        <IsApprove>True</IsApprove>
+      </Node>
+      <Node>
+        <RequestNodeID>30E321B8-9C9A-4E1C-98B5-8665FDAF2892</RequestNodeID>
+        <ProcessNodeID>7FF34257-9F54-43BA-8823-4BFF8CB04B69</ProcessNodeID>
+        <IsApprove>True</IsApprove>
+      </Node>
+      <Node>
+        <RequestNodeID>30E321B8-9C9A-4E1C-98B5-8665FDAF2892</RequestNodeID>
+        <ProcessNodeID>04A3596E-9588-4756-A916-D15D47005756</ProcessNodeID>
+        <IsApprove>False</IsApprove>
+      </Node>
+    </RuleTable>
+  </Group>
+</Rule>
